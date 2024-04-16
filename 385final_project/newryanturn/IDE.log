@@ -1,0 +1,133 @@
+09:03:23 DEBUG : Logs will be stored at 'C:/385/lab67redo/newryanturn/IDE.log'.
+09:03:27 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\385\lab67redo\newryanturn\temp_xsdb_launch_script.tcl
+09:03:27 INFO  : Registering command handlers for Vitis TCF services
+09:03:27 INFO  : Platform repository initialization has completed.
+09:03:31 INFO  : XSCT server has started successfully.
+09:03:32 INFO  : plnx-install-location is set to ''
+09:03:32 INFO  : Successfully done setting XSCT server connection channel  
+09:03:32 INFO  : Successfully done query RDI_DATADIR 
+09:03:32 INFO  : Successfully done setting workspace for the tool. 
+09:04:08 ERROR : (XSDB Server)ERROR: [Hsi 55-1562] Source directory C:/385/lab67redo/newryanturn/bitstreamworkcode/hw/drivers\hdmi_text_controller_v1_0/src does not exist or is not a directory.
+
+09:04:10 INFO  : Result from executing command 'getProjects': bitstreamworkcode
+09:04:10 INFO  : Result from executing command 'getPlatforms': 
+09:04:10 WARN  : An unexpected exception occurred in the module 'platform project logging'
+09:04:10 INFO  : Platform 'bitstreamworkcode' is added to custom repositories.
+09:04:14 INFO  : Platform 'bitstreamworkcode' is added to custom repositories.
+09:10:46 INFO  : Result from executing command 'removePlatformRepo': 
+09:10:57 INFO  : Result from executing command 'getProjects': bitstreamworkcode
+09:10:57 INFO  : Result from executing command 'getPlatforms': 
+09:10:57 INFO  : Checking for BSP changes to sync application flags for project 'blockmbruntime'...
+09:12:08 INFO  : Result from executing command 'removePlatformRepo': 
+09:12:19 INFO  : Result from executing command 'getProjects': bitstreamworkcode
+09:12:19 INFO  : Result from executing command 'getPlatforms': 
+09:12:20 INFO  : Checking for BSP changes to sync application flags for project 'blockmbruntime'...
+09:22:46 INFO  : Result from executing command 'removePlatformRepo': 
+09:22:57 INFO  : Result from executing command 'getProjects': bitstreamworkcode
+09:22:57 INFO  : Result from executing command 'getPlatforms': 
+09:22:57 INFO  : Checking for BSP changes to sync application flags for project 'blockmbruntime'...
+09:23:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:23:25 INFO  : Jtag cable 'RealDigital Boo 88742923028BA' is selected.
+09:23:25 INFO  : 'jtag frequency' command is executed.
+09:23:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+09:23:26 INFO  : Device configured successfully with "C:/385/lab67redo/newryanturn/blockmbruntime/_ide/bitstream/bitstreamworkcode.bit"
+09:23:26 INFO  : Context for processor 'microblaze_0' is selected.
+09:23:26 INFO  : Hardware design and registers information is loaded from 'C:/385/lab67redo/newryanturn/bitstreamworkcode/export/bitstreamworkcode/hw/bitstreamworkcode.xsa'.
+09:23:26 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:23:26 INFO  : Context for processor 'microblaze_0' is selected.
+09:23:26 INFO  : System reset is completed.
+09:23:29 INFO  : 'after 3000' command is executed.
+09:23:29 INFO  : Context for processor 'microblaze_0' is selected.
+09:23:30 INFO  : The application 'C:/385/lab67redo/newryanturn/blockmbruntime/Debug/blockmbruntime.elf' is downloaded to processor 'microblaze_0'.
+09:23:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/lab67redo/newryanturn/blockmbruntime/_ide/bitstream/bitstreamworkcode.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/lab67redo/newryanturn/bitstreamworkcode/export/bitstreamworkcode/hw/bitstreamworkcode.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/lab67redo/newryanturn/blockmbruntime/Debug/blockmbruntime.elf
+----------------End of Script----------------
+
+09:23:30 INFO  : Context for processor 'microblaze_0' is selected.
+09:23:30 INFO  : 'con' command is executed.
+09:23:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:23:30 INFO  : Disconnected from the channel tcfchan#7.
+12:25:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:25:40 INFO  : Jtag cable 'RealDigital Boo 88742923028BA' is selected.
+12:25:40 INFO  : 'jtag frequency' command is executed.
+12:25:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+12:25:42 INFO  : Device configured successfully with "C:/385/lab67redo/newryanturn/blockmbruntime/_ide/bitstream/bitstreamworkcode.bit"
+12:25:42 INFO  : Context for processor 'microblaze_0' is selected.
+12:25:42 INFO  : Hardware design and registers information is loaded from 'C:/385/lab67redo/newryanturn/bitstreamworkcode/export/bitstreamworkcode/hw/bitstreamworkcode.xsa'.
+12:25:42 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:25:42 INFO  : Context for processor 'microblaze_0' is selected.
+12:25:42 INFO  : System reset is completed.
+12:25:45 INFO  : 'after 3000' command is executed.
+12:25:45 INFO  : Context for processor 'microblaze_0' is selected.
+12:25:45 INFO  : The application 'C:/385/lab67redo/newryanturn/blockmbruntime/Debug/blockmbruntime.elf' is downloaded to processor 'microblaze_0'.
+12:25:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/lab67redo/newryanturn/blockmbruntime/_ide/bitstream/bitstreamworkcode.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/lab67redo/newryanturn/bitstreamworkcode/export/bitstreamworkcode/hw/bitstreamworkcode.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/lab67redo/newryanturn/blockmbruntime/Debug/blockmbruntime.elf
+----------------End of Script----------------
+
+12:25:45 INFO  : Context for processor 'microblaze_0' is selected.
+12:25:45 INFO  : 'con' command is executed.
+12:25:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:25:45 INFO  : Disconnected from the channel tcfchan#8.
+13:05:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:05:13 INFO  : Jtag cable 'RealDigital Boo 8874292301EDA' is selected.
+13:05:13 INFO  : 'jtag frequency' command is executed.
+13:05:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292301EDA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+13:05:15 INFO  : Device configured successfully with "C:/385/lab67redo/newryanturn/blockmbruntime/_ide/bitstream/bitstreamworkcode.bit"
+13:05:15 INFO  : Context for processor 'microblaze_0' is selected.
+13:05:15 INFO  : Hardware design and registers information is loaded from 'C:/385/lab67redo/newryanturn/bitstreamworkcode/export/bitstreamworkcode/hw/bitstreamworkcode.xsa'.
+13:05:15 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:05:15 INFO  : Context for processor 'microblaze_0' is selected.
+13:05:15 INFO  : System reset is completed.
+13:05:18 INFO  : 'after 3000' command is executed.
+13:05:18 INFO  : Context for processor 'microblaze_0' is selected.
+13:05:19 INFO  : The application 'C:/385/lab67redo/newryanturn/blockmbruntime/Debug/blockmbruntime.elf' is downloaded to processor 'microblaze_0'.
+13:05:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292301EDA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/lab67redo/newryanturn/blockmbruntime/_ide/bitstream/bitstreamworkcode.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/lab67redo/newryanturn/bitstreamworkcode/export/bitstreamworkcode/hw/bitstreamworkcode.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/lab67redo/newryanturn/blockmbruntime/Debug/blockmbruntime.elf
+----------------End of Script----------------
+
+13:05:19 INFO  : Context for processor 'microblaze_0' is selected.
+13:05:19 INFO  : 'con' command is executed.
+13:05:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:05:19 INFO  : Disconnected from the channel tcfchan#9.

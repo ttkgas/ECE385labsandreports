@@ -1,0 +1,17 @@
+timestamp=[2024-04-04 15:11:53], mode=WORKBENCH_START, duration=0:00:09.656, duration_ms=9656, data={}
+timestamp=[2024-04-04 15:11:54], mode=WORKBENCH_UI_INIT, duration=0:00:00.613, duration_ms=613, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-04-04 15:11:55], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.072, duration_ms=72, data={}
+timestamp=[2024-04-04 15:12:59], mode=APP_CREATION, duration=0:00:07.300, duration_ms=7300, data={name=tikitaki, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=whatodo, application_type=application}
+timestamp=[2024-04-04 15:15:14], mode=PLATFORM_GENERATION, duration=0:00:05.021, duration_ms=5021, data={name=whatodo}
+timestamp=[2024-04-04 15:15:24], mode=PLATFORM_GENERATION, duration=0:00:09.433, duration_ms=9433, data={name=whatodo}
+timestamp=[2024-04-04 15:15:27], mode=BUILD, duration=0:00:03.063, duration_ms=3063, data={name=tikitaki, configuration=Debug, clean_build=false}
+timestamp=[2024-04-04 15:15:28], mode=BUILD, duration=0:00:00.292, duration_ms=292, data={name=tikitaki_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-04 15:36:16], mode=BUILD, duration=0:00:00.775, duration_ms=775, data={name=tikitaki, configuration=Debug, clean_build=false}
+timestamp=[2024-04-04 15:42:36], mode=BUILD, duration=0:00:00.766, duration_ms=766, data={name=tikitaki, configuration=Debug, clean_build=false}
+timestamp=[2024-04-04 15:43:53], mode=BUILD, duration=0:00:00.640, duration_ms=640, data={name=tikitaki, configuration=Debug, clean_build=false}
+timestamp=[2024-04-04 15:49:01], mode=BUILD, duration=0:00:00.206, duration_ms=206, data={name=tikitaki, configuration=Debug, clean_build=true}
+timestamp=[2024-04-04 15:49:01], mode=BUILD, duration=0:00:00.137, duration_ms=137, data={name=tikitaki_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-04 15:49:04], mode=PLATFORM_GENERATION, duration=0:00:02.876, duration_ms=2876, data={name=whatodo}
+timestamp=[2024-04-04 15:49:11], mode=PLATFORM_GENERATION, duration=0:00:06.482, duration_ms=6482, data={name=whatodo}
+timestamp=[2024-04-04 15:49:12], mode=BUILD, duration=0:00:01.193, duration_ms=1193, data={name=tikitaki, configuration=Debug, clean_build=false}
+timestamp=[2024-04-04 15:49:13], mode=BUILD, duration=0:00:00.687, duration_ms=687, data={name=tikitaki_system, configuration=Debug, clean_build=false}

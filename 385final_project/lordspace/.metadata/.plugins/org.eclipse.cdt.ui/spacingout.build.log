@@ -1,0 +1,73 @@
+15:57:00 **** Build of configuration Debug for project spacingout ****
+make all 
+'Building file: ../src/hdmi_text_controller.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hdmi_text_controller.o" -IC:/385/lab67redo/lordspace/overandabove/export/overandabove/sw/overandabove/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/hdmi_text_controller.d" -MT"src/hdmi_text_controller.o" -o "src/hdmi_text_controller.o" "../src/hdmi_text_controller.c"
+In file included from ../src/hdmi_text_controller.h:8,
+                 from ../src/hdmi_text_controller.c:4:
+C:/385/lab67redo/lordspace/overandabove/export/overandabove/sw/overandabove/standalone_microblaze_0/bspinclude/include/xparameters.h:574:50: warning: initialization of 'volatile struct TEXT_HDMI_STRUCT *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  574 | #define XPAR_HDMI_TEXT_CONTROLLER_0_AXI_BASEADDR 0x44A00000
+      |                                                  ^~~~~~~~~~
+../src/hdmi_text_controller.h:30:54: note: in expansion of macro 'XPAR_HDMI_TEXT_CONTROLLER_0_AXI_BASEADDR'
+   30 | static volatile struct TEXT_HDMI_STRUCT* hdmi_ctrl = XPAR_HDMI_TEXT_CONTROLLER_0_AXI_BASEADDR;
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/hdmi_text_controller.c: In function 'setColorPalette':
+../src/hdmi_text_controller.c:59:27: warning: passing argument 2 of 'sprintf' makes pointer from integer without a cast [-Wint-conversion]
+   59 |         sprintf("%d%d%d", red, green, blue);
+      |                           ^~~
+      |                           |
+      |                           uint8_t {aka unsigned char}
+In file included from ../src/hdmi_text_controller.c:5:
+c:\xilinx\vitis\2022.2\gnu\microblaze\nt\microblazeeb-xilinx-elf\usr\include\stdio.h:244:36: note: expected 'const char * restrict' but argument is of type 'uint8_t' {aka 'unsigned char'}
+  244 | int     sprintf (char *__restrict, const char *__restrict, ...)
+      |                                    ^
+../src/hdmi_text_controller.c: At top level:
+../src/hdmi_text_controller.c:92:1: warning: return type defaults to 'int' [-Wimplicit-int]
+   92 | hdmiTestWeek2()
+      | ^~~~~~~~~~~~~
+../src/hdmi_text_controller.c:92:1: warning: conflicting types for 'hdmiTestWeek2'
+In file included from ../src/hdmi_text_controller.c:4:
+../src/hdmi_text_controller.h:119:6: note: previous declaration of 'hdmiTestWeek2' with type 'void()'
+  119 | void hdmiTestWeek2(); //call this for your Week 2 demo
+      |      ^~~~~~~~~~~~~
+'Finished building: ../src/hdmi_text_controller.c'
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/385/lab67redo/lordspace/overandabove/export/overandabove/sw/overandabove/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+In file included from C:/385/lab67redo/lordspace/overandabove/export/overandabove/sw/overandabove/standalone_microblaze_0/bspinclude/include/xil_printf.h:16,
+                 from ../src/helloworld.c:50:
+C:/385/lab67redo/lordspace/overandabove/export/overandabove/sw/overandabove/standalone_microblaze_0/bspinclude/include/xparameters.h:574:50: warning: initialization of 'volatile struct TEXT_HDMI_STRUCT *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  574 | #define XPAR_HDMI_TEXT_CONTROLLER_0_AXI_BASEADDR 0x44A00000
+      |                                                  ^~~~~~~~~~
+../src/hdmi_text_controller.h:30:54: note: in expansion of macro 'XPAR_HDMI_TEXT_CONTROLLER_0_AXI_BASEADDR'
+   30 | static volatile struct TEXT_HDMI_STRUCT* hdmi_ctrl = XPAR_HDMI_TEXT_CONTROLLER_0_AXI_BASEADDR;
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../src/helloworld.c:51:
+../src/hdmi_text_controller.h:33:21: warning: 'colors' defined but not used [-Wunused-variable]
+   33 | static struct COLOR colors[]={
+      |                     ^~~~~~
+../src/hdmi_text_controller.h:30:42: warning: 'hdmi_ctrl' defined but not used [-Wunused-variable]
+   30 | static volatile struct TEXT_HDMI_STRUCT* hdmi_ctrl = XPAR_HDMI_TEXT_CONTROLLER_0_AXI_BASEADDR;
+      |                                          ^~~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/385/lab67redo/lordspace/overandabove/export/overandabove/sw/overandabove/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: spacingout.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/385/lab67redo/lordspace/overandabove/export/overandabove/sw/overandabove/standalone_microblaze_0/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "spacingout.elf"  ./src/hdmi_text_controller.o ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: spacingout.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size spacingout.elf  |tee "spacingout.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84440	   2096	   3168	  89704	  15e68	spacingout.elf
+'Finished building: spacingout.elf.size'
+' '
+
+15:57:03 Build Finished (took 2s.256ms)
+

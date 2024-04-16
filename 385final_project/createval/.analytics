@@ -1,0 +1,20 @@
+timestamp=[2024-04-04 02:29:51], mode=WORKBENCH_START, duration=0:00:07.459, duration_ms=7459, data={}
+timestamp=[2024-04-04 02:29:51], mode=WORKBENCH_UI_INIT, duration=0:00:00.544, duration_ms=544, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-04-04 02:29:53], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.068, duration_ms=68, data={}
+timestamp=[2024-04-04 02:30:31], mode=APP_CREATION, duration=0:00:06.228, duration_ms=6228, data={name=blockbat, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=runningbitstream, application_type=application}
+timestamp=[2024-04-04 02:33:48], mode=PLATFORM_GENERATION, duration=0:00:04.205, duration_ms=4205, data={name=runningbitstream}
+timestamp=[2024-04-04 02:33:56], mode=PLATFORM_GENERATION, duration=0:00:08.215, duration_ms=8215, data={name=runningbitstream}
+timestamp=[2024-04-04 02:33:59], mode=BUILD, duration=0:00:02.300, duration_ms=2300, data={name=blockbat, configuration=Debug, clean_build=false}
+timestamp=[2024-04-04 02:34:00], mode=BUILD, duration=0:00:00.273, duration_ms=273, data={name=blockbat_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-04 02:35:53], mode=BUILD, duration=0:00:00.306, duration_ms=306, data={name=blockbat, configuration=Debug, clean_build=true}
+timestamp=[2024-04-04 02:35:54], mode=BUILD, duration=0:00:00.307, duration_ms=307, data={name=blockbat_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-04 02:35:58], mode=PLATFORM_GENERATION, duration=0:00:04.559, duration_ms=4559, data={name=runningbitstream}
+timestamp=[2024-04-04 02:36:07], mode=PLATFORM_GENERATION, duration=0:00:08.183, duration_ms=8183, data={name=runningbitstream}
+timestamp=[2024-04-04 02:36:09], mode=BUILD, duration=0:00:02.165, duration_ms=2165, data={name=blockbat, configuration=Debug, clean_build=false}
+timestamp=[2024-04-04 02:36:09], mode=BUILD, duration=0:00:00.231, duration_ms=231, data={name=blockbat_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-04 02:37:20], mode=BUILD, duration=0:00:00.317, duration_ms=317, data={name=blockbat, configuration=Debug, clean_build=true}
+timestamp=[2024-04-04 02:37:20], mode=BUILD, duration=0:00:00.287, duration_ms=287, data={name=blockbat_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-04 02:37:25], mode=PLATFORM_GENERATION, duration=0:00:04.973, duration_ms=4973, data={name=runningbitstream}
+timestamp=[2024-04-04 02:37:33], mode=PLATFORM_GENERATION, duration=0:00:07.699, duration_ms=7699, data={name=runningbitstream}
+timestamp=[2024-04-04 02:37:35], mode=BUILD, duration=0:00:01.926, duration_ms=1926, data={name=blockbat, configuration=Debug, clean_build=false}
+timestamp=[2024-04-04 02:37:36], mode=BUILD, duration=0:00:00.229, duration_ms=229, data={name=blockbat_system, configuration=Debug, clean_build=false}

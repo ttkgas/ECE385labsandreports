@@ -1,0 +1,23 @@
+timestamp=[2024-03-28 15:49:26], mode=WORKBENCH_START, duration=0:00:11.604, duration_ms=11604, data={}
+timestamp=[2024-03-28 15:49:27], mode=WORKBENCH_UI_INIT, duration=0:00:00.677, duration_ms=677, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-03-28 15:49:28], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.085, duration_ms=85, data={}
+timestamp=[2024-03-28 15:50:10], mode=APP_CREATION, duration=0:00:08.384, duration_ms=8384, data={name=regenattempt, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=bitstreamregen, application_type=application}
+timestamp=[2024-03-28 15:53:18], mode=PLATFORM_GENERATION, duration=0:00:05.002, duration_ms=5002, data={name=bitstreamregen}
+timestamp=[2024-03-28 15:53:28], mode=PLATFORM_GENERATION, duration=0:00:09.219, duration_ms=9219, data={name=bitstreamregen}
+timestamp=[2024-03-28 15:53:31], mode=BUILD, duration=0:00:03.301, duration_ms=3301, data={name=regenattempt, configuration=Debug, clean_build=false}
+timestamp=[2024-03-28 15:53:32], mode=BUILD, duration=0:00:00.235, duration_ms=235, data={name=regenattempt_system, configuration=Debug, clean_build=false}
+timestamp=[2024-03-28 15:57:35], mode=PLATFORM_GENERATION, duration=0:00:04.832, duration_ms=4832, data={name=bitstreamregen}
+timestamp=[2024-03-28 15:57:35], mode=BUILD, duration=0:00:00.289, duration_ms=289, data={name=regenattempt, configuration=Debug, clean_build=true}
+timestamp=[2024-03-28 15:57:35], mode=BUILD, duration=0:00:00.227, duration_ms=227, data={name=regenattempt_system, configuration=Debug, clean_build=true}
+timestamp=[2024-03-28 15:57:44], mode=PLATFORM_GENERATION, duration=0:00:08.141, duration_ms=8141, data={name=bitstreamregen}
+timestamp=[2024-03-28 15:57:46], mode=BUILD, duration=0:00:02.463, duration_ms=2463, data={name=regenattempt, configuration=Debug, clean_build=false}
+timestamp=[2024-03-28 15:57:47], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=regenattempt_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-03 17:03:18], mode=WORKBENCH_START, duration=0:00:09.936, duration_ms=9936, data={}
+timestamp=[2024-04-03 17:03:18], mode=WORKBENCH_UI_INIT, duration=0:00:00.625, duration_ms=625, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,bitstreamregen,regenattempt,regenattempt_system}
+timestamp=[2024-04-03 17:03:19], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.127, duration_ms=127, data={}
+timestamp=[2024-04-04 01:10:27], mode=WORKBENCH_START, duration=0:00:11.677, duration_ms=11677, data={}
+timestamp=[2024-04-04 01:10:28], mode=WORKBENCH_UI_INIT, duration=0:00:00.896, duration_ms=896, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,bitstreamregen,regenattempt,regenattempt_system}
+timestamp=[2024-04-04 01:10:29], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.134, duration_ms=134, data={}
+timestamp=[2024-04-04 02:32:12], mode=WORKBENCH_START, duration=0:00:09.675, duration_ms=9675, data={}
+timestamp=[2024-04-04 02:32:13], mode=WORKBENCH_UI_INIT, duration=0:00:01.094, duration_ms=1094, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,bitstreamregen,regenattempt,regenattempt_system}
+timestamp=[2024-04-04 02:32:14], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.079, duration_ms=79, data={}

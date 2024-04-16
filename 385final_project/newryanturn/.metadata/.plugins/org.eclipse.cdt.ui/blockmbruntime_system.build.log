@@ -1,0 +1,6 @@
+09:23:02 **** Build of configuration Debug for project blockmbruntime_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+09:23:03 Build Finished (took 304ms)
+

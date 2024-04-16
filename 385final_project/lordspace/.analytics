@@ -1,0 +1,32 @@
+timestamp=[2024-04-04 14:11:04], mode=WORKBENCH_START, duration=0:00:11.036, duration_ms=11036, data={}
+timestamp=[2024-04-04 14:11:04], mode=WORKBENCH_UI_INIT, duration=0:00:00.657, duration_ms=657, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-04-04 14:11:06], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.101, duration_ms=101, data={}
+timestamp=[2024-04-04 14:11:55], mode=APP_CREATION, duration=0:00:07.842, duration_ms=7842, data={name=spacingout, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=overandabove, application_type=application}
+timestamp=[2024-04-04 14:14:41], mode=PLATFORM_GENERATION, duration=0:00:05.374, duration_ms=5374, data={name=overandabove}
+timestamp=[2024-04-04 14:14:53], mode=PLATFORM_GENERATION, duration=0:00:11.791, duration_ms=11791, data={name=overandabove}
+timestamp=[2024-04-04 14:14:57], mode=BUILD, duration=0:00:04.395, duration_ms=4395, data={name=spacingout, configuration=Debug, clean_build=false}
+timestamp=[2024-04-04 14:14:58], mode=BUILD, duration=0:00:00.346, duration_ms=346, data={name=spacingout_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-04 15:50:51], mode=PLATFORM_GENERATION, duration=0:00:02.817, duration_ms=2817, data={name=overandabove}
+timestamp=[2024-04-04 15:50:51], mode=BUILD, duration=0:00:00.186, duration_ms=186, data={name=spacingout, configuration=Debug, clean_build=true}
+timestamp=[2024-04-04 15:50:51], mode=BUILD, duration=0:00:00.198, duration_ms=198, data={name=spacingout_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-04 15:50:58], mode=PLATFORM_GENERATION, duration=0:00:06.260, duration_ms=6260, data={name=overandabove}
+timestamp=[2024-04-04 15:50:59], mode=BUILD, duration=0:00:01.197, duration_ms=1197, data={name=spacingout, configuration=Debug, clean_build=false}
+timestamp=[2024-04-04 15:51:00], mode=BUILD, duration=0:00:00.166, duration_ms=166, data={name=spacingout_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-04 15:51:47], mode=PLATFORM_GENERATION, duration=0:00:02.883, duration_ms=2883, data={name=overandabove}
+timestamp=[2024-04-04 15:51:48], mode=BUILD, duration=0:00:00.204, duration_ms=204, data={name=spacingout, configuration=Debug, clean_build=true}
+timestamp=[2024-04-04 15:51:48], mode=BUILD, duration=0:00:00.200, duration_ms=200, data={name=spacingout_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-04 15:51:54], mode=PLATFORM_GENERATION, duration=0:00:05.913, duration_ms=5913, data={name=overandabove}
+timestamp=[2024-04-04 15:51:55], mode=BUILD, duration=0:00:01.189, duration_ms=1189, data={name=spacingout, configuration=Debug, clean_build=false}
+timestamp=[2024-04-04 15:51:56], mode=BUILD, duration=0:00:00.216, duration_ms=216, data={name=spacingout_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-04 15:54:45], mode=PLATFORM_GENERATION, duration=0:00:02.813, duration_ms=2813, data={name=overandabove}
+timestamp=[2024-04-04 15:54:45], mode=BUILD, duration=0:00:00.190, duration_ms=190, data={name=spacingout, configuration=Debug, clean_build=true}
+timestamp=[2024-04-04 15:54:46], mode=BUILD, duration=0:00:00.219, duration_ms=219, data={name=spacingout_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-04 15:54:52], mode=PLATFORM_GENERATION, duration=0:00:06.191, duration_ms=6191, data={name=overandabove}
+timestamp=[2024-04-04 15:54:53], mode=BUILD, duration=0:00:01.320, duration_ms=1320, data={name=spacingout, configuration=Debug, clean_build=false}
+timestamp=[2024-04-04 15:54:54], mode=BUILD, duration=0:00:00.327, duration_ms=327, data={name=spacingout_system, configuration=Debug, clean_build=false}
+timestamp=[2024-04-04 15:56:54], mode=PLATFORM_GENERATION, duration=0:00:02.627, duration_ms=2627, data={name=overandabove}
+timestamp=[2024-04-04 15:56:54], mode=BUILD, duration=0:00:00.189, duration_ms=189, data={name=spacingout, configuration=Debug, clean_build=true}
+timestamp=[2024-04-04 15:56:54], mode=BUILD, duration=0:00:00.186, duration_ms=186, data={name=spacingout_system, configuration=Debug, clean_build=true}
+timestamp=[2024-04-04 15:57:00], mode=PLATFORM_GENERATION, duration=0:00:06.212, duration_ms=6212, data={name=overandabove}
+timestamp=[2024-04-04 15:57:03], mode=BUILD, duration=0:00:02.265, duration_ms=2265, data={name=spacingout, configuration=Debug, clean_build=false}
+timestamp=[2024-04-04 15:57:03], mode=BUILD, duration=0:00:00.121, duration_ms=121, data={name=spacingout_system, configuration=Debug, clean_build=false}

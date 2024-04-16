@@ -1,0 +1,2095 @@
+TRACE::2024-04-04.14:11:47::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:47::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:47::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:47::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:47::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:47::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-04-04.14:11:47::SCWPlatform::Opened new HwDB with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:47::SCWWriter::formatted JSON is {
+	"platformName":	"overandabove",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"overandabove",
+	"platHandOff":	"C:/385/lab67redo/overandabove.xsa",
+	"platIntHandOff":	"<platformDir>/hw/overandabove.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2024-04-04.14:11:47::SCWWriter::formatted JSON is {
+	"platformName":	"overandabove",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"overandabove",
+	"platHandOff":	"C:/385/lab67redo/overandabove.xsa",
+	"platIntHandOff":	"<platformDir>/hw/overandabove.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"overandabove",
+	"systems":	[{
+			"systemName":	"overandabove",
+			"systemDesc":	"overandabove",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"overandabove"
+		}]
+}
+TRACE::2024-04-04.14:11:47::SCWPlatform::Boot application domains not present, creating them
+TRACE::2024-04-04.14:11:47::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2024-04-04.14:11:47::SCWWriter::formatted JSON is {
+	"platformName":	"overandabove",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"overandabove",
+	"platHandOff":	"C:/385/lab67redo/overandabove.xsa",
+	"platIntHandOff":	"<platformDir>/hw/overandabove.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"overandabove",
+	"systems":	[{
+			"systemName":	"overandabove",
+			"systemDesc":	"overandabove",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"overandabove"
+		}]
+}
+TRACE::2024-04-04.14:11:47::SCWWriter::formatted JSON is {
+	"platformName":	"overandabove",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"overandabove",
+	"platHandOff":	"C:/385/lab67redo/overandabove.xsa",
+	"platIntHandOff":	"<platformDir>/hw/overandabove.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"overandabove",
+	"systems":	[{
+			"systemName":	"overandabove",
+			"systemDesc":	"overandabove",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"overandabove"
+		}]
+}
+TRACE::2024-04-04.14:11:47::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:47::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:47::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:47::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:47::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:47::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:47::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:47::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:47::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:47::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:47::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:47::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:47::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:47::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:47::SCWDomain::checking for install qemu data   : 
+TRACE::2024-04-04.14:11:47::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:47::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:47::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:47::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:47::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:47::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:47::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:47::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:47::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:47::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:47::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:47::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:47::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:47::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:47::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:48::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:48::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:48::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:48::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:48::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:48::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:48::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:48::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:48::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:48::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-04-04.14:11:48::SCWMssOS::No sw design opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:48::SCWMssOS::mss does not exists at C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:48::SCWMssOS::Creating sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:48::SCWMssOS::Adding the swdes entry, created swdb C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:48::SCWMssOS::updating the scw layer changes to swdes at   C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:48::SCWMssOS::Writing mss at C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:48::SCWMssOS::Completed writing the mss file at C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-04-04.14:11:48::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-04-04.14:11:48::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-04-04.14:11:48::SCWMssOS::Completed writing the mss file at C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-04-04.14:11:48::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2024-04-04.14:11:51::SCWMssOS::Saving the mss changes C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2024-04-04.14:11:51::SCWMssOS::Writing the mss file completed C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::Commit changes completed.
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:51::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:11:51::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:51::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:11:51::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:51::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:11:51::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWWriter::formatted JSON is {
+	"platformName":	"overandabove",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"overandabove",
+	"platHandOff":	"C:/385/lab67redo/overandabove.xsa",
+	"platIntHandOff":	"<platformDir>/hw/overandabove.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"overandabove",
+	"systems":	[{
+			"systemName":	"overandabove",
+			"systemDesc":	"overandabove",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"overandabove",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"5422c1e5be4ae93f4de8c50507402f2a",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-04-04.14:11:51::SCWPlatform::Started generating the artifacts platform overandabove
+TRACE::2024-04-04.14:11:51::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-04-04.14:11:51::SCWPlatform::Started generating the artifacts for system configuration overandabove
+LOG::2024-04-04.14:11:51::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-04-04.14:11:51::SCWSystem::Not a boot domain 
+LOG::2024-04-04.14:11:51::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-04-04.14:11:51::SCWDomain::Generating domain artifcats
+TRACE::2024-04-04.14:11:51::SCWMssOS::Generating standalone artifcats
+TRACE::2024-04-04.14:11:51::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:51::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:11:51::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::Completed writing the mss file at C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-04-04.14:11:51::SCWMssOS::Mss edits present, copying mssfile into export location C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-04-04.14:11:51::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-04-04.14:11:51::SCWDomain::Skipping the build for domain :  standalone_microblaze_0
+TRACE::2024-04-04.14:11:51::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-04-04.14:11:51::SCWMssOS::Copying to export directory.
+TRACE::2024-04-04.14:11:51::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-04-04.14:11:51::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-04-04.14:11:51::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-04-04.14:11:51::SCWSystem::Completed Processing the sysconfig overandabove
+LOG::2024-04-04.14:11:51::SCWPlatform::Completed generating the artifacts for system configuration overandabove
+TRACE::2024-04-04.14:11:51::SCWPlatform::Started preparing the platform 
+TRACE::2024-04-04.14:11:51::SCWSystem::Writing the bif file for system config overandabove
+TRACE::2024-04-04.14:11:51::SCWSystem::dir created 
+TRACE::2024-04-04.14:11:51::SCWSystem::Writing the bif 
+TRACE::2024-04-04.14:11:51::SCWPlatform::Started writing the spfm file 
+TRACE::2024-04-04.14:11:51::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-04-04.14:11:51::SCWPlatform::Completed generating the platform
+TRACE::2024-04-04.14:11:51::SCWMssOS::Saving the mss changes C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-04.14:11:51::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-04.14:11:51::SCWMssOS::Commit changes completed.
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:51::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:11:51::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:51::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:11:51::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:51::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:11:51::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWWriter::formatted JSON is {
+	"platformName":	"overandabove",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"overandabove",
+	"platHandOff":	"C:/385/lab67redo/overandabove.xsa",
+	"platIntHandOff":	"<platformDir>/hw/overandabove.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"overandabove",
+	"systems":	[{
+			"systemName":	"overandabove",
+			"systemDesc":	"overandabove",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"overandabove",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"5422c1e5be4ae93f4de8c50507402f2a",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-04-04.14:11:51::SCWPlatform::updated the xpfm file.
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:51::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:11:51::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::Saving the mss changes C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-04.14:11:51::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-04.14:11:51::SCWMssOS::Commit changes completed.
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:51::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:11:51::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:51::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:11:51::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:51::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:11:51::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWWriter::formatted JSON is {
+	"platformName":	"overandabove",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"overandabove",
+	"platHandOff":	"C:/385/lab67redo/overandabove.xsa",
+	"platIntHandOff":	"<platformDir>/hw/overandabove.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"overandabove",
+	"systems":	[{
+			"systemName":	"overandabove",
+			"systemDesc":	"overandabove",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"overandabove",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"5422c1e5be4ae93f4de8c50507402f2a",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:51::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:11:51::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:51::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:11:51::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::Saving the mss changes C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-04.14:11:51::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-04.14:11:51::SCWMssOS::Commit changes completed.
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:51::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:11:51::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:51::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:11:51::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:51::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:11:51::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWWriter::formatted JSON is {
+	"platformName":	"overandabove",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"overandabove",
+	"platHandOff":	"C:/385/lab67redo/overandabove.xsa",
+	"platIntHandOff":	"<platformDir>/hw/overandabove.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"overandabove",
+	"systems":	[{
+			"systemName":	"overandabove",
+			"systemDesc":	"overandabove",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"overandabove",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"5422c1e5be4ae93f4de8c50507402f2a",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-04-04.14:11:51::SCWPlatform::Started generating the artifacts platform overandabove
+TRACE::2024-04-04.14:11:51::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-04-04.14:11:51::SCWPlatform::Started generating the artifacts for system configuration overandabove
+LOG::2024-04-04.14:11:51::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-04-04.14:11:51::SCWDomain::Generating domain artifcats
+TRACE::2024-04-04.14:11:51::SCWMssOS::Generating standalone artifcats
+TRACE::2024-04-04.14:11:51::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:51::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:11:51::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::Completed writing the mss file at C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-04-04.14:11:51::SCWMssOS::Mss edits present, copying mssfile into export location C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-04-04.14:11:51::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-04-04.14:11:51::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-04-04.14:11:51::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-04-04.14:11:51::SCWMssOS::Copying to export directory.
+TRACE::2024-04-04.14:11:51::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-04-04.14:11:51::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-04-04.14:11:51::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-04-04.14:11:51::SCWSystem::Completed Processing the sysconfig overandabove
+LOG::2024-04-04.14:11:51::SCWPlatform::Completed generating the artifacts for system configuration overandabove
+TRACE::2024-04-04.14:11:51::SCWPlatform::Started preparing the platform 
+TRACE::2024-04-04.14:11:51::SCWSystem::Writing the bif file for system config overandabove
+TRACE::2024-04-04.14:11:51::SCWSystem::dir created 
+TRACE::2024-04-04.14:11:51::SCWSystem::Writing the bif 
+TRACE::2024-04-04.14:11:51::SCWPlatform::Started writing the spfm file 
+TRACE::2024-04-04.14:11:51::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-04-04.14:11:51::SCWPlatform::Completed generating the platform
+TRACE::2024-04-04.14:11:51::SCWMssOS::Saving the mss changes C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-04.14:11:51::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-04.14:11:51::SCWMssOS::Commit changes completed.
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:51::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:11:51::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:51::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:11:51::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:11:51::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:11:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:11:51::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:11:51::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:11:51::SCWWriter::formatted JSON is {
+	"platformName":	"overandabove",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"overandabove",
+	"platHandOff":	"C:/385/lab67redo/overandabove.xsa",
+	"platIntHandOff":	"<platformDir>/hw/overandabove.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"overandabove",
+	"systems":	[{
+			"systemName":	"overandabove",
+			"systemDesc":	"overandabove",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"overandabove",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"5422c1e5be4ae93f4de8c50507402f2a",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-04-04.14:11:51::SCWPlatform::updated the xpfm file.
+TRACE::2024-04-04.14:14:39::SCWMssOS::cleaning the bsp 
+TRACE::2024-04-04.14:14:39::SCWMssOS::System Command Ran  C: & cd  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2024-04-04.14:14:40::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2024-04-04.14:14:40::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2024-04-04.14:14:40::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s clean 
+
+TRACE::2024-04-04.14:14:40::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2024-04-04.14:14:41::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s clean 
+
+TRACE::2024-04-04.14:14:41::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2024-04-04.14:14:45::SCWPlatform::Started generating the artifacts platform overandabove
+TRACE::2024-04-04.14:14:45::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-04-04.14:14:45::SCWPlatform::Started generating the artifacts for system configuration overandabove
+LOG::2024-04-04.14:14:45::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-04-04.14:14:45::SCWSystem::Not a boot domain 
+LOG::2024-04-04.14:14:45::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-04-04.14:14:45::SCWDomain::Generating domain artifcats
+TRACE::2024-04-04.14:14:45::SCWMssOS::Generating standalone artifcats
+TRACE::2024-04-04.14:14:45::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-04-04.14:14:45::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:14:45::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:14:45::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:14:45::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:14:45::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:14:45::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:14:45::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:14:45::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:14:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:14:45::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:14:45::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:14:45::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:14:45::SCWMssOS::Completed writing the mss file at C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-04-04.14:14:45::SCWMssOS::Mss edits present, copying mssfile into export location C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:14:45::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-04-04.14:14:45::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-04-04.14:14:45::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-04-04.14:14:45::SCWMssOS::doing bsp build ... 
+TRACE::2024-04-04.14:14:45::SCWMssOS::System Command Ran  C: & cd  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-04-04.14:14:45::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-04-04.14:14:45::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2024-04-04.14:14:45::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2024-04-04.14:14:45::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2024-04-04.14:14:45::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-04-04.14:14:45::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2024-04-04.14:14:45::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.14:14:45::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2024-04-04.14:14:45::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-04-04.14:14:45::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2024-04-04.14:14:45::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.14:14:45::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2024-04-04.14:14:45::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-04-04.14:14:45::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2024-04-04.14:14:45::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.14:14:45::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2024-04-04.14:14:45::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2024-04-04.14:14:45::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-04-04.14:14:45::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2024-04-04.14:14:45::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.14:14:45::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-04-04.14:14:45::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2024-04-04.14:14:45::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.14:14:46::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2024-04-04.14:14:46::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-04-04.14:14:46::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2024-04-04.14:14:46::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.14:14:46::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2024-04-04.14:14:46::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-04-04.14:14:46::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2024-04-04.14:14:46::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.14:14:46::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2024-04-04.14:14:46::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2024-04-04.14:14:46::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2024-04-04.14:14:46::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.14:14:46::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2024-04-04.14:14:46::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2024-04-04.14:14:46::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2024-04-04.14:14:46::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.14:14:48::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2024-04-04.14:14:48::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-04-04.14:14:48::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2024-04-04.14:14:48::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.14:14:51::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2024-04-04.14:14:51::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2024-04-04.14:14:51::SCWMssOS::make --no-print-directory archive
+
+TRACE::2024-04-04.14:14:51::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2024-04-04.14:14:51::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2024-04-04.14:14:51::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2024-04-04.14:14:51::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2024-04-04.14:14:51::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2024-04-04.14:14:51::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2024-04-04.14:14:51::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2024-04-04.14:14:51::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2024-04-04.14:14:51::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2024-04-04.14:14:51::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2024-04-04.14:14:51::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2024-04-04.14:14:51::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2024-04-04.14:14:51::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2024-04-04.14:14:51::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xil_assert.o microblaze_0/lib/xil_cache.o microblaze_0
+TRACE::2024-04-04.14:14:51::SCWMssOS::/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xil_misc_psreset_api.o microbl
+TRACE::2024-04-04.14:14:51::SCWMssOS::aze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/xil_testio.o microb
+TRACE::2024-04-04.14:14:51::SCWMssOS::laze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc
+TRACE::2024-04-04.14:14:51::SCWMssOS::_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xinterru
+TRACE::2024-04-04.14:14:51::SCWMssOS::pt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o 
+TRACE::2024-04-04.14:14:51::SCWMssOS::microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xuartli
+TRACE::2024-04-04.14:14:51::SCWMssOS::te_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2024-04-04.14:14:52::SCWMssOS::'Finished building libraries'
+
+TRACE::2024-04-04.14:14:52::SCWMssOS::Copying to export directory.
+TRACE::2024-04-04.14:14:52::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-04-04.14:14:52::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-04-04.14:14:52::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-04-04.14:14:52::SCWSystem::Completed Processing the sysconfig overandabove
+LOG::2024-04-04.14:14:52::SCWPlatform::Completed generating the artifacts for system configuration overandabove
+TRACE::2024-04-04.14:14:52::SCWPlatform::Started preparing the platform 
+TRACE::2024-04-04.14:14:52::SCWSystem::Writing the bif file for system config overandabove
+TRACE::2024-04-04.14:14:52::SCWSystem::dir created 
+TRACE::2024-04-04.14:14:52::SCWSystem::Writing the bif 
+TRACE::2024-04-04.14:14:52::SCWPlatform::Started writing the spfm file 
+TRACE::2024-04-04.14:14:52::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-04-04.14:14:52::SCWPlatform::Completed generating the platform
+TRACE::2024-04-04.14:14:52::SCWMssOS::Saving the mss changes C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:14:52::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-04.14:14:52::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-04.14:14:52::SCWMssOS::Commit changes completed.
+TRACE::2024-04-04.14:14:52::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:14:52::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:14:52::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:14:52::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:14:52::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:14:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:14:52::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:14:52::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:14:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:14:52::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:14:52::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:14:52::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:14:52::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:14:52::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:14:52::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:14:52::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:14:52::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:14:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:14:52::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:14:52::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:14:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:14:52::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:14:52::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:14:52::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:14:52::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:14:52::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:14:52::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:14:52::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:14:52::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:14:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:14:52::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:14:52::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:14:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:14:52::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:14:52::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:14:52::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:14:52::SCWWriter::formatted JSON is {
+	"platformName":	"overandabove",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"overandabove",
+	"platHandOff":	"C:/385/lab67redo/overandabove.xsa",
+	"platIntHandOff":	"<platformDir>/hw/overandabove.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"overandabove",
+	"systems":	[{
+			"systemName":	"overandabove",
+			"systemDesc":	"overandabove",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"overandabove",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"5422c1e5be4ae93f4de8c50507402f2a",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-04-04.14:14:52::SCWPlatform::updated the xpfm file.
+TRACE::2024-04-04.14:14:53::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:14:53::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:14:53::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:14:53::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.14:14:53::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.14:14:53::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.14:14:53::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:14:53::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.14:14:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.14:14:53::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.14:14:53::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.14:14:53::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:50:50::SCWMssOS::cleaning the bsp 
+TRACE::2024-04-04.15:50:50::SCWMssOS::System Command Ran  C: & cd  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2024-04-04.15:50:50::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2024-04-04.15:50:50::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2024-04-04.15:50:50::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s clean 
+
+TRACE::2024-04-04.15:50:50::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2024-04-04.15:50:50::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s clean 
+
+TRACE::2024-04-04.15:50:50::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2024-04-04.15:50:53::SCWPlatform::Started generating the artifacts platform overandabove
+TRACE::2024-04-04.15:50:53::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-04-04.15:50:53::SCWPlatform::Started generating the artifacts for system configuration overandabove
+LOG::2024-04-04.15:50:53::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-04-04.15:50:53::SCWSystem::Not a boot domain 
+LOG::2024-04-04.15:50:53::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-04-04.15:50:53::SCWDomain::Generating domain artifcats
+TRACE::2024-04-04.15:50:53::SCWMssOS::Generating standalone artifcats
+TRACE::2024-04-04.15:50:53::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-04-04.15:50:53::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:50:53::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:50:53::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:50:53::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.15:50:53::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:50:53::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.15:50:53::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:50:53::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:50:53::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.15:50:53::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:50:53::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.15:50:53::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:50:53::SCWMssOS::Completed writing the mss file at C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-04-04.15:50:53::SCWMssOS::Mss edits present, copying mssfile into export location C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:50:53::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-04-04.15:50:53::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-04-04.15:50:53::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-04-04.15:50:53::SCWMssOS::doing bsp build ... 
+TRACE::2024-04-04.15:50:53::SCWMssOS::System Command Ran  C: & cd  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-04-04.15:50:53::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-04-04.15:50:53::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2024-04-04.15:50:53::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2024-04-04.15:50:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2024-04-04.15:50:53::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-04-04.15:50:53::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2024-04-04.15:50:53::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:50:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2024-04-04.15:50:53::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-04-04.15:50:53::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2024-04-04.15:50:53::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:50:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2024-04-04.15:50:53::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-04-04.15:50:53::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2024-04-04.15:50:53::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:50:53::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2024-04-04.15:50:54::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-04-04.15:50:54::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2024-04-04.15:50:54::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:50:54::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2024-04-04.15:50:54::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-04-04.15:50:54::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2024-04-04.15:50:54::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:50:54::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2024-04-04.15:50:54::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-04-04.15:50:54::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2024-04-04.15:50:54::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:50:54::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2024-04-04.15:50:54::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-04-04.15:50:54::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2024-04-04.15:50:54::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:50:54::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2024-04-04.15:50:54::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2024-04-04.15:50:54::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2024-04-04.15:50:54::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:50:54::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2024-04-04.15:50:54::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2024-04-04.15:50:54::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2024-04-04.15:50:54::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:50:54::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2024-04-04.15:50:54::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-04-04.15:50:54::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2024-04-04.15:50:54::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:50:57::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2024-04-04.15:50:57::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2024-04-04.15:50:57::SCWMssOS::make --no-print-directory archive
+
+TRACE::2024-04-04.15:50:57::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2024-04-04.15:50:57::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2024-04-04.15:50:57::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2024-04-04.15:50:57::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2024-04-04.15:50:57::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2024-04-04.15:50:57::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2024-04-04.15:50:57::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2024-04-04.15:50:57::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2024-04-04.15:50:57::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2024-04-04.15:50:57::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2024-04-04.15:50:57::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2024-04-04.15:50:57::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2024-04-04.15:50:57::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2024-04-04.15:50:57::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xil_assert.o microblaze_0/lib/xil_cache.o microblaze_0
+TRACE::2024-04-04.15:50:57::SCWMssOS::/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xil_misc_psreset_api.o microbl
+TRACE::2024-04-04.15:50:57::SCWMssOS::aze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/xil_testio.o microb
+TRACE::2024-04-04.15:50:57::SCWMssOS::laze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc
+TRACE::2024-04-04.15:50:57::SCWMssOS::_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xinterru
+TRACE::2024-04-04.15:50:57::SCWMssOS::pt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o 
+TRACE::2024-04-04.15:50:57::SCWMssOS::microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xuartli
+TRACE::2024-04-04.15:50:57::SCWMssOS::te_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2024-04-04.15:50:57::SCWMssOS::'Finished building libraries'
+
+TRACE::2024-04-04.15:50:57::SCWMssOS::Copying to export directory.
+TRACE::2024-04-04.15:50:57::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-04-04.15:50:57::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-04-04.15:50:57::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-04-04.15:50:57::SCWSystem::Completed Processing the sysconfig overandabove
+LOG::2024-04-04.15:50:57::SCWPlatform::Completed generating the artifacts for system configuration overandabove
+TRACE::2024-04-04.15:50:57::SCWPlatform::Started preparing the platform 
+TRACE::2024-04-04.15:50:57::SCWSystem::Writing the bif file for system config overandabove
+TRACE::2024-04-04.15:50:57::SCWSystem::dir created 
+TRACE::2024-04-04.15:50:57::SCWSystem::Writing the bif 
+TRACE::2024-04-04.15:50:57::SCWPlatform::Started writing the spfm file 
+TRACE::2024-04-04.15:50:57::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-04-04.15:50:57::SCWPlatform::Completed generating the platform
+TRACE::2024-04-04.15:50:57::SCWMssOS::Saving the mss changes C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:50:57::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-04.15:50:57::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-04.15:50:57::SCWMssOS::Commit changes completed.
+TRACE::2024-04-04.15:50:57::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:50:57::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:50:57::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:50:57::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.15:50:57::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:50:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.15:50:57::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:50:57::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:50:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.15:50:57::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:50:57::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.15:50:57::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:50:57::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:50:57::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:50:57::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:50:57::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.15:50:57::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:50:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.15:50:57::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:50:57::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:50:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.15:50:57::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:50:57::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.15:50:57::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:50:57::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:50:57::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:50:57::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:50:57::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.15:50:57::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:50:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.15:50:57::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:50:57::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:50:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.15:50:57::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:50:57::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.15:50:57::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:50:57::SCWWriter::formatted JSON is {
+	"platformName":	"overandabove",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"overandabove",
+	"platHandOff":	"C:/385/lab67redo/overandabove.xsa",
+	"platIntHandOff":	"<platformDir>/hw/overandabove.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"overandabove",
+	"systems":	[{
+			"systemName":	"overandabove",
+			"systemDesc":	"overandabove",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"overandabove",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"5422c1e5be4ae93f4de8c50507402f2a",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-04-04.15:50:57::SCWPlatform::updated the xpfm file.
+TRACE::2024-04-04.15:50:57::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:50:57::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:50:57::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:50:57::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.15:50:57::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:50:57::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.15:50:57::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:50:57::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:50:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.15:50:57::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:50:57::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.15:50:57::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:51:47::SCWMssOS::cleaning the bsp 
+TRACE::2024-04-04.15:51:47::SCWMssOS::System Command Ran  C: & cd  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2024-04-04.15:51:47::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2024-04-04.15:51:47::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2024-04-04.15:51:47::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s clean 
+
+TRACE::2024-04-04.15:51:47::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2024-04-04.15:51:47::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s clean 
+
+TRACE::2024-04-04.15:51:47::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2024-04-04.15:51:50::SCWPlatform::Started generating the artifacts platform overandabove
+TRACE::2024-04-04.15:51:50::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-04-04.15:51:50::SCWPlatform::Started generating the artifacts for system configuration overandabove
+LOG::2024-04-04.15:51:50::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-04-04.15:51:50::SCWSystem::Not a boot domain 
+LOG::2024-04-04.15:51:50::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-04-04.15:51:50::SCWDomain::Generating domain artifcats
+TRACE::2024-04-04.15:51:50::SCWMssOS::Generating standalone artifcats
+TRACE::2024-04-04.15:51:50::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-04-04.15:51:50::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:51:50::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:51:50::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:51:50::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.15:51:50::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:51:50::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.15:51:50::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:51:50::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:51:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.15:51:50::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:51:50::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.15:51:50::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:51:50::SCWMssOS::Completed writing the mss file at C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-04-04.15:51:50::SCWMssOS::Mss edits present, copying mssfile into export location C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:51:50::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-04-04.15:51:50::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-04-04.15:51:50::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-04-04.15:51:50::SCWMssOS::doing bsp build ... 
+TRACE::2024-04-04.15:51:50::SCWMssOS::System Command Ran  C: & cd  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-04-04.15:51:50::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-04-04.15:51:50::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2024-04-04.15:51:50::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2024-04-04.15:51:50::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2024-04-04.15:51:50::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-04-04.15:51:50::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2024-04-04.15:51:50::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:51:50::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2024-04-04.15:51:50::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-04-04.15:51:50::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2024-04-04.15:51:50::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:51:50::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2024-04-04.15:51:50::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-04-04.15:51:50::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2024-04-04.15:51:50::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:51:50::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2024-04-04.15:51:50::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-04-04.15:51:50::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2024-04-04.15:51:50::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:51:50::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2024-04-04.15:51:50::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-04-04.15:51:50::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2024-04-04.15:51:50::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:51:50::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2024-04-04.15:51:50::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-04-04.15:51:50::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2024-04-04.15:51:50::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:51:50::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2024-04-04.15:51:50::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-04-04.15:51:50::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2024-04-04.15:51:50::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:51:50::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2024-04-04.15:51:50::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2024-04-04.15:51:50::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2024-04-04.15:51:50::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:51:50::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2024-04-04.15:51:50::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2024-04-04.15:51:50::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2024-04-04.15:51:50::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:51:51::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2024-04-04.15:51:51::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-04-04.15:51:51::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2024-04-04.15:51:51::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:51:53::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2024-04-04.15:51:53::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2024-04-04.15:51:53::SCWMssOS::make --no-print-directory archive
+
+TRACE::2024-04-04.15:51:53::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2024-04-04.15:51:53::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2024-04-04.15:51:53::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2024-04-04.15:51:53::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2024-04-04.15:51:53::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2024-04-04.15:51:53::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2024-04-04.15:51:53::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2024-04-04.15:51:53::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2024-04-04.15:51:53::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2024-04-04.15:51:53::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2024-04-04.15:51:53::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2024-04-04.15:51:53::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2024-04-04.15:51:53::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2024-04-04.15:51:53::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xil_assert.o microblaze_0/lib/xil_cache.o microblaze_0
+TRACE::2024-04-04.15:51:53::SCWMssOS::/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xil_misc_psreset_api.o microbl
+TRACE::2024-04-04.15:51:53::SCWMssOS::aze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/xil_testio.o microb
+TRACE::2024-04-04.15:51:53::SCWMssOS::laze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc
+TRACE::2024-04-04.15:51:53::SCWMssOS::_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xinterru
+TRACE::2024-04-04.15:51:53::SCWMssOS::pt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o 
+TRACE::2024-04-04.15:51:53::SCWMssOS::microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xuartli
+TRACE::2024-04-04.15:51:53::SCWMssOS::te_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2024-04-04.15:51:53::SCWMssOS::'Finished building libraries'
+
+TRACE::2024-04-04.15:51:54::SCWMssOS::Copying to export directory.
+TRACE::2024-04-04.15:51:54::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-04-04.15:51:54::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-04-04.15:51:54::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-04-04.15:51:54::SCWSystem::Completed Processing the sysconfig overandabove
+LOG::2024-04-04.15:51:54::SCWPlatform::Completed generating the artifacts for system configuration overandabove
+TRACE::2024-04-04.15:51:54::SCWPlatform::Started preparing the platform 
+TRACE::2024-04-04.15:51:54::SCWSystem::Writing the bif file for system config overandabove
+TRACE::2024-04-04.15:51:54::SCWSystem::dir created 
+TRACE::2024-04-04.15:51:54::SCWSystem::Writing the bif 
+TRACE::2024-04-04.15:51:54::SCWPlatform::Started writing the spfm file 
+TRACE::2024-04-04.15:51:54::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-04-04.15:51:54::SCWPlatform::Completed generating the platform
+TRACE::2024-04-04.15:51:54::SCWMssOS::Saving the mss changes C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:51:54::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-04.15:51:54::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-04.15:51:54::SCWMssOS::Commit changes completed.
+TRACE::2024-04-04.15:51:54::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:51:54::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:51:54::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:51:54::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.15:51:54::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:51:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.15:51:54::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:51:54::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:51:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.15:51:54::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:51:54::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.15:51:54::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:51:54::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:51:54::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:51:54::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:51:54::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.15:51:54::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:51:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.15:51:54::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:51:54::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:51:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.15:51:54::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:51:54::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.15:51:54::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:51:54::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:51:54::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:51:54::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:51:54::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.15:51:54::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:51:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.15:51:54::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:51:54::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:51:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.15:51:54::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:51:54::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.15:51:54::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:51:54::SCWWriter::formatted JSON is {
+	"platformName":	"overandabove",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"overandabove",
+	"platHandOff":	"C:/385/lab67redo/overandabove.xsa",
+	"platIntHandOff":	"<platformDir>/hw/overandabove.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"overandabove",
+	"systems":	[{
+			"systemName":	"overandabove",
+			"systemDesc":	"overandabove",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"overandabove",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"5422c1e5be4ae93f4de8c50507402f2a",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-04-04.15:51:54::SCWPlatform::updated the xpfm file.
+TRACE::2024-04-04.15:51:54::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:51:54::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:51:54::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:51:54::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.15:51:54::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:51:54::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.15:51:54::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:51:54::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:51:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.15:51:54::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:51:54::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.15:51:54::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:54:44::SCWMssOS::cleaning the bsp 
+TRACE::2024-04-04.15:54:44::SCWMssOS::System Command Ran  C: & cd  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2024-04-04.15:54:44::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2024-04-04.15:54:44::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2024-04-04.15:54:44::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s clean 
+
+TRACE::2024-04-04.15:54:45::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2024-04-04.15:54:45::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s clean 
+
+TRACE::2024-04-04.15:54:45::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2024-04-04.15:54:48::SCWPlatform::Started generating the artifacts platform overandabove
+TRACE::2024-04-04.15:54:48::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-04-04.15:54:48::SCWPlatform::Started generating the artifacts for system configuration overandabove
+LOG::2024-04-04.15:54:48::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-04-04.15:54:48::SCWSystem::Not a boot domain 
+LOG::2024-04-04.15:54:48::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-04-04.15:54:48::SCWDomain::Generating domain artifcats
+TRACE::2024-04-04.15:54:48::SCWMssOS::Generating standalone artifcats
+TRACE::2024-04-04.15:54:48::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-04-04.15:54:48::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:54:48::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:54:48::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:54:48::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.15:54:48::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:54:48::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.15:54:48::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:54:48::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:54:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.15:54:48::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:54:48::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.15:54:48::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:54:48::SCWMssOS::Completed writing the mss file at C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-04-04.15:54:48::SCWMssOS::Mss edits present, copying mssfile into export location C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:54:48::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-04-04.15:54:48::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-04-04.15:54:48::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-04-04.15:54:48::SCWMssOS::doing bsp build ... 
+TRACE::2024-04-04.15:54:48::SCWMssOS::System Command Ran  C: & cd  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-04-04.15:54:48::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-04-04.15:54:48::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2024-04-04.15:54:48::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2024-04-04.15:54:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2024-04-04.15:54:48::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-04-04.15:54:48::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2024-04-04.15:54:48::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:54:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2024-04-04.15:54:48::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-04-04.15:54:48::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2024-04-04.15:54:48::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:54:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2024-04-04.15:54:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2024-04-04.15:54:48::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-04-04.15:54:48::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2024-04-04.15:54:48::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:54:48::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-04-04.15:54:48::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2024-04-04.15:54:48::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:54:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2024-04-04.15:54:48::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-04-04.15:54:48::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2024-04-04.15:54:48::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:54:48::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2024-04-04.15:54:48::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-04-04.15:54:48::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2024-04-04.15:54:48::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:54:48::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2024-04-04.15:54:48::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-04-04.15:54:48::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2024-04-04.15:54:48::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:54:48::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2024-04-04.15:54:48::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2024-04-04.15:54:48::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2024-04-04.15:54:48::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:54:48::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2024-04-04.15:54:48::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2024-04-04.15:54:48::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2024-04-04.15:54:48::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:54:49::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2024-04-04.15:54:49::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-04-04.15:54:49::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2024-04-04.15:54:49::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:54:51::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2024-04-04.15:54:51::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2024-04-04.15:54:51::SCWMssOS::make --no-print-directory archive
+
+TRACE::2024-04-04.15:54:51::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2024-04-04.15:54:51::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2024-04-04.15:54:51::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2024-04-04.15:54:51::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2024-04-04.15:54:51::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2024-04-04.15:54:51::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2024-04-04.15:54:51::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2024-04-04.15:54:51::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2024-04-04.15:54:51::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2024-04-04.15:54:51::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2024-04-04.15:54:51::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2024-04-04.15:54:51::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2024-04-04.15:54:51::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2024-04-04.15:54:51::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xil_assert.o microblaze_0/lib/xil_cache.o microblaze_0
+TRACE::2024-04-04.15:54:51::SCWMssOS::/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xil_misc_psreset_api.o microbl
+TRACE::2024-04-04.15:54:51::SCWMssOS::aze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/xil_testio.o microb
+TRACE::2024-04-04.15:54:51::SCWMssOS::laze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc
+TRACE::2024-04-04.15:54:51::SCWMssOS::_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xinterru
+TRACE::2024-04-04.15:54:51::SCWMssOS::pt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o 
+TRACE::2024-04-04.15:54:51::SCWMssOS::microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xuartli
+TRACE::2024-04-04.15:54:51::SCWMssOS::te_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2024-04-04.15:54:51::SCWMssOS::'Finished building libraries'
+
+TRACE::2024-04-04.15:54:52::SCWMssOS::Copying to export directory.
+TRACE::2024-04-04.15:54:52::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-04-04.15:54:52::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-04-04.15:54:52::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-04-04.15:54:52::SCWSystem::Completed Processing the sysconfig overandabove
+LOG::2024-04-04.15:54:52::SCWPlatform::Completed generating the artifacts for system configuration overandabove
+TRACE::2024-04-04.15:54:52::SCWPlatform::Started preparing the platform 
+TRACE::2024-04-04.15:54:52::SCWSystem::Writing the bif file for system config overandabove
+TRACE::2024-04-04.15:54:52::SCWSystem::dir created 
+TRACE::2024-04-04.15:54:52::SCWSystem::Writing the bif 
+TRACE::2024-04-04.15:54:52::SCWPlatform::Started writing the spfm file 
+TRACE::2024-04-04.15:54:52::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-04-04.15:54:52::SCWPlatform::Completed generating the platform
+TRACE::2024-04-04.15:54:52::SCWMssOS::Saving the mss changes C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:54:52::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-04.15:54:52::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-04.15:54:52::SCWMssOS::Commit changes completed.
+TRACE::2024-04-04.15:54:52::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:54:52::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:54:52::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:54:52::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.15:54:52::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:54:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.15:54:52::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:54:52::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:54:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.15:54:52::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:54:52::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.15:54:52::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:54:52::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:54:52::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:54:52::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:54:52::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.15:54:52::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:54:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.15:54:52::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:54:52::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:54:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.15:54:52::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:54:52::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.15:54:52::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:54:52::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:54:52::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:54:52::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:54:52::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.15:54:52::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:54:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.15:54:52::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:54:52::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:54:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.15:54:52::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:54:52::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.15:54:52::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:54:52::SCWWriter::formatted JSON is {
+	"platformName":	"overandabove",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"overandabove",
+	"platHandOff":	"C:/385/lab67redo/overandabove.xsa",
+	"platIntHandOff":	"<platformDir>/hw/overandabove.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"overandabove",
+	"systems":	[{
+			"systemName":	"overandabove",
+			"systemDesc":	"overandabove",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"overandabove",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"5422c1e5be4ae93f4de8c50507402f2a",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-04-04.15:54:52::SCWPlatform::updated the xpfm file.
+TRACE::2024-04-04.15:54:52::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:54:52::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:54:52::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:54:52::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.15:54:52::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:54:52::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.15:54:52::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:54:52::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:54:52::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.15:54:52::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:54:52::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.15:54:52::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:56:53::SCWMssOS::cleaning the bsp 
+TRACE::2024-04-04.15:56:53::SCWMssOS::System Command Ran  C: & cd  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2024-04-04.15:56:53::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2024-04-04.15:56:53::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2024-04-04.15:56:53::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s clean 
+
+TRACE::2024-04-04.15:56:53::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2024-04-04.15:56:53::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s clean 
+
+TRACE::2024-04-04.15:56:54::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2024-04-04.15:56:56::SCWPlatform::Started generating the artifacts platform overandabove
+TRACE::2024-04-04.15:56:56::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-04-04.15:56:56::SCWPlatform::Started generating the artifacts for system configuration overandabove
+LOG::2024-04-04.15:56:56::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2024-04-04.15:56:56::SCWSystem::Not a boot domain 
+LOG::2024-04-04.15:56:56::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2024-04-04.15:56:56::SCWDomain::Generating domain artifcats
+TRACE::2024-04-04.15:56:56::SCWMssOS::Generating standalone artifcats
+TRACE::2024-04-04.15:56:56::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-04-04.15:56:56::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:56:56::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:56:56::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:56:56::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.15:56:56::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:56:56::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.15:56:56::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:56:56::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:56:56::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.15:56:56::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:56:56::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.15:56:56::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:56:56::SCWMssOS::Completed writing the mss file at C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2024-04-04.15:56:56::SCWMssOS::Mss edits present, copying mssfile into export location C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:56:56::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-04-04.15:56:56::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-04-04.15:56:56::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2024-04-04.15:56:56::SCWMssOS::doing bsp build ... 
+TRACE::2024-04-04.15:56:56::SCWMssOS::System Command Ran  C: & cd  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2024-04-04.15:56:56::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2024-04-04.15:56:56::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2024-04-04.15:56:56::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2024-04-04.15:56:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2024-04-04.15:56:56::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-04-04.15:56:56::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2024-04-04.15:56:56::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:56:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2024-04-04.15:56:56::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-04-04.15:56:56::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_CO
+TRACE::2024-04-04.15:56:56::SCWMssOS::MPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:56:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2024-04-04.15:56:56::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-04-04.15:56:56::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2024-04-04.15:56:56::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:56:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2024-04-04.15:56:56::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-04-04.15:56:56::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
+TRACE::2024-04-04.15:56:56::SCWMssOS::TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:56:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2024-04-04.15:56:56::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-04-04.15:56:56::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTR
+TRACE::2024-04-04.15:56:56::SCWMssOS::A_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:56:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2024-04-04.15:56:56::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-04-04.15:56:56::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2024-04-04.15:56:56::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:56:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2024-04-04.15:56:56::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-04-04.15:56:56::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMPI
+TRACE::2024-04-04.15:56:56::SCWMssOS::LER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:56:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2024-04-04.15:56:56::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2024-04-04.15:56:56::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COMP
+TRACE::2024-04-04.15:56:56::SCWMssOS::ILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:56:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2024-04-04.15:56:56::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2024-04-04.15:56:56::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA
+TRACE::2024-04-04.15:56:56::SCWMssOS::_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:56:57::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2024-04-04.15:56:57::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-04-04.15:56:57::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_C
+TRACE::2024-04-04.15:56:57::SCWMssOS::OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2024-04-04.15:57:00::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2024-04-04.15:57:00::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2024-04-04.15:57:00::SCWMssOS::make --no-print-directory archive
+
+TRACE::2024-04-04.15:57:00::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2024-04-04.15:57:00::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2024-04-04.15:57:00::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2024-04-04.15:57:00::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2024-04-04.15:57:00::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2024-04-04.15:57:00::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2024-04-04.15:57:00::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2024-04-04.15:57:00::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2024-04-04.15:57:00::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2024-04-04.15:57:00::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2024-04-04.15:57:00::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2024-04-04.15:57:00::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2024-04-04.15:57:00::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2024-04-04.15:57:00::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xil_assert.o microblaze_0/lib/xil_cache.o microblaze_0
+TRACE::2024-04-04.15:57:00::SCWMssOS::/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xil_misc_psreset_api.o microbl
+TRACE::2024-04-04.15:57:00::SCWMssOS::aze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/xil_testio.o microb
+TRACE::2024-04-04.15:57:00::SCWMssOS::laze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc
+TRACE::2024-04-04.15:57:00::SCWMssOS::_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xinterru
+TRACE::2024-04-04.15:57:00::SCWMssOS::pt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o 
+TRACE::2024-04-04.15:57:00::SCWMssOS::microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xuartli
+TRACE::2024-04-04.15:57:00::SCWMssOS::te_sinit.o microblaze_0/lib/xuartlite_stats.o
+
+TRACE::2024-04-04.15:57:00::SCWMssOS::'Finished building libraries'
+
+TRACE::2024-04-04.15:57:00::SCWMssOS::Copying to export directory.
+TRACE::2024-04-04.15:57:00::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-04-04.15:57:00::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-04-04.15:57:00::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2024-04-04.15:57:00::SCWSystem::Completed Processing the sysconfig overandabove
+LOG::2024-04-04.15:57:00::SCWPlatform::Completed generating the artifacts for system configuration overandabove
+TRACE::2024-04-04.15:57:00::SCWPlatform::Started preparing the platform 
+TRACE::2024-04-04.15:57:00::SCWSystem::Writing the bif file for system config overandabove
+TRACE::2024-04-04.15:57:00::SCWSystem::dir created 
+TRACE::2024-04-04.15:57:00::SCWSystem::Writing the bif 
+TRACE::2024-04-04.15:57:00::SCWPlatform::Started writing the spfm file 
+TRACE::2024-04-04.15:57:00::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-04-04.15:57:00::SCWPlatform::Completed generating the platform
+TRACE::2024-04-04.15:57:00::SCWMssOS::Saving the mss changes C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:57:00::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-04.15:57:00::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-04.15:57:00::SCWMssOS::Commit changes completed.
+TRACE::2024-04-04.15:57:00::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:57:00::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:57:00::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:57:00::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.15:57:00::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:57:00::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.15:57:00::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:57:00::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:57:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.15:57:00::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:57:00::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.15:57:00::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:57:00::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:57:00::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:57:00::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:57:00::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.15:57:00::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:57:00::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.15:57:00::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:57:00::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:57:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.15:57:00::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:57:00::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.15:57:00::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:57:00::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:57:00::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:57:00::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:57:00::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.15:57:00::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:57:00::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.15:57:00::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:57:00::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:57:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.15:57:00::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:57:00::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.15:57:00::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:57:00::SCWWriter::formatted JSON is {
+	"platformName":	"overandabove",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"overandabove",
+	"platHandOff":	"C:/385/lab67redo/overandabove.xsa",
+	"platIntHandOff":	"<platformDir>/hw/overandabove.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"overandabove",
+	"systems":	[{
+			"systemName":	"overandabove",
+			"systemDesc":	"overandabove",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"overandabove",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"5422c1e5be4ae93f4de8c50507402f2a",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-04-04.15:57:00::SCWPlatform::updated the xpfm file.
+TRACE::2024-04-04.15:57:00::SCWPlatform::Trying to open the hw design at C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:57:00::SCWPlatform::DSA given C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:57:00::SCWPlatform::DSA absoulate path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:57:00::SCWPlatform::DSA directory C:/385/lab67redo/lordspace/overandabove/hw
+TRACE::2024-04-04.15:57:00::SCWPlatform:: Platform Path C:/385/lab67redo/lordspace/overandabove/hw/overandabove.xsa
+TRACE::2024-04-04.15:57:00::SCWPlatform:: Unique name xilinx:::0.0
+TRACE::2024-04-04.15:57:00::SCWPlatform::Trying to set the existing hwdb with name mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:57:00::SCWPlatform::Opened existing hwdb mb_usb_hdmi_top_0
+TRACE::2024-04-04.15:57:00::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-04.15:57:00::SCWMssOS::Checking the sw design at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2024-04-04.15:57:00::SCWMssOS::DEBUG:  swdes dump  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2024-04-04.15:57:00::SCWMssOS::Sw design exists and opened at  C:/385/lab67redo/lordspace/overandabove/microblaze_0/standalone_microblaze_0/bsp/system.mss

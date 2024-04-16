@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"c:/385/lab67redo/lab67redo.tmp/hdmi_text_controller_v2_0_project1/hdmi_text_controller_v2_0_project1.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

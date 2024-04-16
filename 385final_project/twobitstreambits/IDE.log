@@ -1,0 +1,164 @@
+03:42:24 DEBUG : Logs will be stored at 'C:/385/lab67redo/twobitstreambits/IDE.log'.
+03:42:29 INFO  : Platform repository initialization has completed.
+03:42:29 INFO  : Registering command handlers for Vitis TCF services
+03:42:29 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\385\lab67redo\twobitstreambits\temp_xsdb_launch_script.tcl
+03:42:36 INFO  : XSCT server has started successfully.
+03:42:43 INFO  : plnx-install-location is set to ''
+03:42:43 INFO  : Successfully done setting XSCT server connection channel  
+03:42:43 INFO  : Successfully done query RDI_DATADIR 
+03:42:43 INFO  : Successfully done setting workspace for the tool. 
+03:43:41 ERROR : (XSDB Server)ERROR: [Hsi 55-1562] Source directory C:/385/lab67redo/twobitstreambits/week2bitstream/hw/drivers\hdmi_text_controller_v1_0/src does not exist or is not a directory.
+
+03:43:44 INFO  : Result from executing command 'getProjects': week2bitstream
+03:43:44 INFO  : Result from executing command 'getPlatforms': 
+03:43:44 WARN  : An unexpected exception occurred in the module 'platform project logging'
+03:43:44 INFO  : Platform 'week2bitstream' is added to custom repositories.
+03:43:47 INFO  : Platform 'week2bitstream' is added to custom repositories.
+03:49:04 INFO  : Result from executing command 'removePlatformRepo': 
+03:49:15 INFO  : Result from executing command 'getProjects': week2bitstream
+03:49:15 INFO  : Result from executing command 'getPlatforms': 
+03:49:15 INFO  : Checking for BSP changes to sync application flags for project 'blockmbhdmi'...
+03:49:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:49:47 INFO  : Jtag cable 'RealDigital Boo 8874292302F4A' is selected.
+03:49:47 INFO  : 'jtag frequency' command is executed.
+03:49:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302F4A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+03:49:48 INFO  : Device configured successfully with "C:/385/lab67redo/twobitstreambits/blockmbhdmi/_ide/bitstream/week2bitstream.bit"
+03:49:49 INFO  : Context for processor 'microblaze_0' is selected.
+03:49:49 INFO  : Hardware design and registers information is loaded from 'C:/385/lab67redo/twobitstreambits/week2bitstream/export/week2bitstream/hw/week2bitstream.xsa'.
+03:49:49 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+03:49:49 INFO  : Context for processor 'microblaze_0' is selected.
+03:49:49 INFO  : System reset is completed.
+03:49:52 INFO  : 'after 3000' command is executed.
+03:49:52 INFO  : Context for processor 'microblaze_0' is selected.
+03:49:52 INFO  : The application 'C:/385/lab67redo/twobitstreambits/blockmbhdmi/Debug/blockmbhdmi.elf' is downloaded to processor 'microblaze_0'.
+03:49:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302F4A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/lab67redo/twobitstreambits/blockmbhdmi/_ide/bitstream/week2bitstream.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/lab67redo/twobitstreambits/week2bitstream/export/week2bitstream/hw/week2bitstream.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/lab67redo/twobitstreambits/blockmbhdmi/Debug/blockmbhdmi.elf
+----------------End of Script----------------
+
+03:49:52 INFO  : Context for processor 'microblaze_0' is selected.
+03:49:52 INFO  : 'con' command is executed.
+03:49:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+03:49:52 INFO  : Disconnected from the channel tcfchan#3.
+03:50:35 INFO  : Result from executing command 'removePlatformRepo': 
+03:50:45 INFO  : Result from executing command 'getProjects': week2bitstream
+03:50:45 INFO  : Result from executing command 'getPlatforms': 
+03:50:45 INFO  : Checking for BSP changes to sync application flags for project 'blockmbhdmi'...
+03:51:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:51:00 INFO  : Jtag cable 'RealDigital Boo 8874292302F4A' is selected.
+03:51:00 INFO  : 'jtag frequency' command is executed.
+03:51:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302F4A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+03:51:01 INFO  : Device configured successfully with "C:/385/lab67redo/twobitstreambits/blockmbhdmi/_ide/bitstream/week2bitstream.bit"
+03:51:02 INFO  : Context for processor 'microblaze_0' is selected.
+03:51:02 INFO  : Hardware design and registers information is loaded from 'C:/385/lab67redo/twobitstreambits/week2bitstream/export/week2bitstream/hw/week2bitstream.xsa'.
+03:51:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+03:51:02 INFO  : Context for processor 'microblaze_0' is selected.
+03:51:02 INFO  : System reset is completed.
+03:51:05 INFO  : 'after 3000' command is executed.
+03:51:05 INFO  : Context for processor 'microblaze_0' is selected.
+03:51:05 INFO  : The application 'C:/385/lab67redo/twobitstreambits/blockmbhdmi/Debug/blockmbhdmi.elf' is downloaded to processor 'microblaze_0'.
+03:51:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302F4A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/lab67redo/twobitstreambits/blockmbhdmi/_ide/bitstream/week2bitstream.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/lab67redo/twobitstreambits/week2bitstream/export/week2bitstream/hw/week2bitstream.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/lab67redo/twobitstreambits/blockmbhdmi/Debug/blockmbhdmi.elf
+----------------End of Script----------------
+
+03:51:05 INFO  : Context for processor 'microblaze_0' is selected.
+03:51:05 INFO  : 'con' command is executed.
+03:51:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+03:51:05 INFO  : Disconnected from the channel tcfchan#6.
+03:59:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:59:28 INFO  : Jtag cable 'RealDigital Boo 8874292302F4A' is selected.
+03:59:28 INFO  : 'jtag frequency' command is executed.
+03:59:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302F4A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+03:59:29 INFO  : Device configured successfully with "C:/385/lab67redo/twobitstreambits/blockmbhdmi/_ide/bitstream/week2bitstream.bit"
+03:59:29 INFO  : Context for processor 'microblaze_0' is selected.
+03:59:29 INFO  : Hardware design and registers information is loaded from 'C:/385/lab67redo/twobitstreambits/week2bitstream/export/week2bitstream/hw/week2bitstream.xsa'.
+03:59:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+03:59:29 INFO  : Context for processor 'microblaze_0' is selected.
+03:59:29 INFO  : System reset is completed.
+03:59:32 INFO  : 'after 3000' command is executed.
+03:59:33 INFO  : Context for processor 'microblaze_0' is selected.
+03:59:33 INFO  : The application 'C:/385/lab67redo/twobitstreambits/blockmbhdmi/Debug/blockmbhdmi.elf' is downloaded to processor 'microblaze_0'.
+03:59:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302F4A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/lab67redo/twobitstreambits/blockmbhdmi/_ide/bitstream/week2bitstream.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/lab67redo/twobitstreambits/week2bitstream/export/week2bitstream/hw/week2bitstream.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/lab67redo/twobitstreambits/blockmbhdmi/Debug/blockmbhdmi.elf
+----------------End of Script----------------
+
+03:59:33 INFO  : Context for processor 'microblaze_0' is selected.
+03:59:33 INFO  : 'con' command is executed.
+03:59:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+03:59:33 INFO  : Disconnected from the channel tcfchan#7.
+04:50:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+04:50:53 INFO  : Jtag cable 'RealDigital Boo 8874292302F4A' is selected.
+04:50:53 INFO  : 'jtag frequency' command is executed.
+04:50:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302F4A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+04:50:55 INFO  : Device configured successfully with "C:/385/lab67redo/twobitstreambits/blockmbhdmi/_ide/bitstream/week2bitstream.bit"
+04:50:55 INFO  : Context for processor 'microblaze_0' is selected.
+04:50:55 INFO  : Hardware design and registers information is loaded from 'C:/385/lab67redo/twobitstreambits/week2bitstream/export/week2bitstream/hw/week2bitstream.xsa'.
+04:50:55 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+04:50:55 INFO  : Context for processor 'microblaze_0' is selected.
+04:50:55 INFO  : System reset is completed.
+04:50:58 INFO  : 'after 3000' command is executed.
+04:50:58 INFO  : Context for processor 'microblaze_0' is selected.
+04:50:58 INFO  : The application 'C:/385/lab67redo/twobitstreambits/blockmbhdmi/Debug/blockmbhdmi.elf' is downloaded to processor 'microblaze_0'.
+04:50:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302F4A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/lab67redo/twobitstreambits/blockmbhdmi/_ide/bitstream/week2bitstream.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/lab67redo/twobitstreambits/week2bitstream/export/week2bitstream/hw/week2bitstream.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/lab67redo/twobitstreambits/blockmbhdmi/Debug/blockmbhdmi.elf
+----------------End of Script----------------
+
+04:50:59 INFO  : Context for processor 'microblaze_0' is selected.
+04:50:59 INFO  : 'con' command is executed.
+04:50:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+04:50:59 INFO  : Disconnected from the channel tcfchan#8.

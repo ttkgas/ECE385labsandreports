@@ -1,0 +1,6 @@
+04:46:32 **** Build of configuration Debug for project mbblockworkies_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+04:46:33 Build Finished (took 290ms)
+

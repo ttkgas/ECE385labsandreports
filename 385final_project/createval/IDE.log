@@ -1,0 +1,168 @@
+02:29:48 DEBUG : Logs will be stored at 'C:/385/lab67redo/createval/IDE.log'.
+02:29:53 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\385\lab67redo\createval\temp_xsdb_launch_script.tcl
+02:29:53 INFO  : Platform repository initialization has completed.
+02:29:53 INFO  : Registering command handlers for Vitis TCF services
+02:29:56 INFO  : XSCT server has started successfully.
+02:29:56 INFO  : Successfully done setting XSCT server connection channel  
+02:29:56 INFO  : plnx-install-location is set to ''
+02:29:56 INFO  : Successfully done query RDI_DATADIR 
+02:29:56 INFO  : Successfully done setting workspace for the tool. 
+02:30:26 ERROR : (XSDB Server)ERROR: [Hsi 55-1562] Source directory C:/385/lab67redo/createval/runningbitstream/hw/drivers\hdmi_text_controller_v1_0/src does not exist or is not a directory.
+
+02:30:28 INFO  : Result from executing command 'getProjects': runningbitstream
+02:30:28 INFO  : Result from executing command 'getPlatforms': 
+02:30:28 WARN  : An unexpected exception occurred in the module 'platform project logging'
+02:30:28 INFO  : Platform 'runningbitstream' is added to custom repositories.
+02:30:31 INFO  : Platform 'runningbitstream' is added to custom repositories.
+02:33:47 INFO  : Result from executing command 'removePlatformRepo': 
+02:33:56 INFO  : Result from executing command 'getProjects': runningbitstream
+02:33:56 INFO  : Result from executing command 'getPlatforms': 
+02:33:56 INFO  : Checking for BSP changes to sync application flags for project 'blockbat'...
+02:34:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:34:33 INFO  : Jtag cable 'RealDigital Boo 8874292302F4A' is selected.
+02:34:33 INFO  : 'jtag frequency' command is executed.
+02:34:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302F4A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+02:34:34 INFO  : Device configured successfully with "C:/385/lab67redo/createval/blockbat/_ide/bitstream/runningbitstream.bit"
+02:34:34 INFO  : Context for processor 'microblaze_0' is selected.
+02:34:34 INFO  : Hardware design and registers information is loaded from 'C:/385/lab67redo/createval/runningbitstream/export/runningbitstream/hw/runningbitstream.xsa'.
+02:34:34 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+02:34:34 INFO  : Context for processor 'microblaze_0' is selected.
+02:34:34 INFO  : System reset is completed.
+02:34:37 INFO  : 'after 3000' command is executed.
+02:34:38 INFO  : Context for processor 'microblaze_0' is selected.
+02:34:38 INFO  : The application 'C:/385/lab67redo/createval/blockbat/Debug/blockbat.elf' is downloaded to processor 'microblaze_0'.
+02:34:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302F4A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/lab67redo/createval/blockbat/_ide/bitstream/runningbitstream.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/lab67redo/createval/runningbitstream/export/runningbitstream/hw/runningbitstream.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/lab67redo/createval/blockbat/Debug/blockbat.elf
+----------------End of Script----------------
+
+02:34:38 INFO  : Context for processor 'microblaze_0' is selected.
+02:34:38 INFO  : 'con' command is executed.
+02:34:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+02:34:38 INFO  : Disconnected from the channel tcfchan#3.
+02:35:57 INFO  : Result from executing command 'removePlatformRepo': 
+02:36:06 INFO  : Result from executing command 'getProjects': runningbitstream
+02:36:06 INFO  : Result from executing command 'getPlatforms': 
+02:36:07 INFO  : Checking for BSP changes to sync application flags for project 'blockbat'...
+02:36:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:36:28 INFO  : Jtag cable 'RealDigital Boo 8874292302F4A' is selected.
+02:36:28 INFO  : 'jtag frequency' command is executed.
+02:36:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302F4A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+02:36:30 INFO  : Device configured successfully with "C:/385/lab67redo/createval/blockbat/_ide/bitstream/runningbitstream.bit"
+02:36:30 INFO  : Context for processor 'microblaze_0' is selected.
+02:36:30 INFO  : Hardware design and registers information is loaded from 'C:/385/lab67redo/createval/runningbitstream/export/runningbitstream/hw/runningbitstream.xsa'.
+02:36:30 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+02:36:30 INFO  : Context for processor 'microblaze_0' is selected.
+02:36:30 INFO  : System reset is completed.
+02:36:33 INFO  : 'after 3000' command is executed.
+02:36:33 INFO  : Context for processor 'microblaze_0' is selected.
+02:36:33 INFO  : The application 'C:/385/lab67redo/createval/blockbat/Debug/blockbat.elf' is downloaded to processor 'microblaze_0'.
+02:36:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302F4A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/lab67redo/createval/blockbat/_ide/bitstream/runningbitstream.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/lab67redo/createval/runningbitstream/export/runningbitstream/hw/runningbitstream.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/lab67redo/createval/blockbat/Debug/blockbat.elf
+----------------End of Script----------------
+
+02:36:33 INFO  : Context for processor 'microblaze_0' is selected.
+02:36:33 INFO  : 'con' command is executed.
+02:36:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+02:36:33 INFO  : Disconnected from the channel tcfchan#6.
+02:37:24 INFO  : Result from executing command 'removePlatformRepo': 
+02:37:33 INFO  : Result from executing command 'getProjects': runningbitstream
+02:37:33 INFO  : Result from executing command 'getPlatforms': 
+02:37:33 INFO  : Checking for BSP changes to sync application flags for project 'blockbat'...
+02:37:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:37:40 INFO  : Jtag cable 'RealDigital Boo 8874292302F4A' is selected.
+02:37:40 INFO  : 'jtag frequency' command is executed.
+02:37:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302F4A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+02:37:42 INFO  : Device configured successfully with "C:/385/lab67redo/createval/blockbat/_ide/bitstream/runningbitstream.bit"
+02:37:42 INFO  : Context for processor 'microblaze_0' is selected.
+02:37:42 INFO  : Hardware design and registers information is loaded from 'C:/385/lab67redo/createval/runningbitstream/export/runningbitstream/hw/runningbitstream.xsa'.
+02:37:42 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+02:37:42 INFO  : Context for processor 'microblaze_0' is selected.
+02:37:42 INFO  : System reset is completed.
+02:37:45 INFO  : 'after 3000' command is executed.
+02:37:45 INFO  : Context for processor 'microblaze_0' is selected.
+02:37:45 INFO  : The application 'C:/385/lab67redo/createval/blockbat/Debug/blockbat.elf' is downloaded to processor 'microblaze_0'.
+02:37:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302F4A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/lab67redo/createval/blockbat/_ide/bitstream/runningbitstream.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/lab67redo/createval/runningbitstream/export/runningbitstream/hw/runningbitstream.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/lab67redo/createval/blockbat/Debug/blockbat.elf
+----------------End of Script----------------
+
+02:37:45 INFO  : Context for processor 'microblaze_0' is selected.
+02:37:45 INFO  : 'con' command is executed.
+02:37:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+02:37:45 INFO  : Disconnected from the channel tcfchan#9.
+03:29:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:29:53 INFO  : Jtag cable 'RealDigital Boo 8874292302F4A' is selected.
+03:29:53 INFO  : 'jtag frequency' command is executed.
+03:29:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302F4A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+03:29:54 INFO  : Device configured successfully with "C:/385/lab67redo/createval/blockbat/_ide/bitstream/runningbitstream.bit"
+03:29:55 INFO  : Context for processor 'microblaze_0' is selected.
+03:29:55 INFO  : Hardware design and registers information is loaded from 'C:/385/lab67redo/createval/runningbitstream/export/runningbitstream/hw/runningbitstream.xsa'.
+03:29:55 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+03:29:55 INFO  : Context for processor 'microblaze_0' is selected.
+03:29:55 INFO  : System reset is completed.
+03:29:58 INFO  : 'after 3000' command is executed.
+03:29:58 INFO  : Context for processor 'microblaze_0' is selected.
+03:29:58 INFO  : The application 'C:/385/lab67redo/createval/blockbat/Debug/blockbat.elf' is downloaded to processor 'microblaze_0'.
+03:29:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 8874292302F4A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/lab67redo/createval/blockbat/_ide/bitstream/runningbitstream.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/lab67redo/createval/runningbitstream/export/runningbitstream/hw/runningbitstream.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/lab67redo/createval/blockbat/Debug/blockbat.elf
+----------------End of Script----------------
+
+03:29:58 INFO  : Context for processor 'microblaze_0' is selected.
+03:29:58 INFO  : 'con' command is executed.
+03:29:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+03:29:58 INFO  : Disconnected from the channel tcfchan#10.

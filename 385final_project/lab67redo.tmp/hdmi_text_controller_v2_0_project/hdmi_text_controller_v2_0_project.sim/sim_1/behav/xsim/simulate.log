@@ -1,0 +1,23 @@
+Time resolution is 1 ps
+Block Memory Generator module hdmi_text_controller_tb.hdmi_text_controller_v1_0_inst.newblkmem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+blk_mem_gen_v8_4_5 collision detected at time: 240000, Instance: hdmi_text_controller_tb.hdmi_text_controller_v1_0_inst.newblkmem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst , A write address: 0, B read address: 0
+blk_mem_gen_v8_4_5 collision detected at time: 250000, Instance: hdmi_text_controller_tb.hdmi_text_controller_v1_0_inst.newblkmem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst , A write address: 0, B read address: 0
+blk_mem_gen_v8_4_5 collision detected at time: 260000, Instance: hdmi_text_controller_tb.hdmi_text_controller_v1_0_inst.newblkmem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst , A write address: 0, B read address: 0
+blk_mem_gen_v8_4_5 collision detected at time: 270000, Instance: hdmi_text_controller_tb.hdmi_text_controller_v1_0_inst.newblkmem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst , A write address: 0, B read address: 0
+blk_mem_gen_v8_4_5 collision detected at time: 280000, Instance: hdmi_text_controller_tb.hdmi_text_controller_v1_0_inst.newblkmem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst , A write address: 0, B read address: 0
+blk_mem_gen_v8_4_5 collision detected at time: 290000, Instance: hdmi_text_controller_tb.hdmi_text_controller_v1_0_inst.newblkmem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst , A write address: 0, B read address: 0
+blk_mem_gen_v8_4_5 collision detected at time: 300000, Instance: hdmi_text_controller_tb.hdmi_text_controller_v1_0_inst.newblkmem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst , A write address: 0, B read address: 0
+blk_mem_gen_v8_4_5 collision detected at time: 310000, Instance: hdmi_text_controller_tb.hdmi_text_controller_v1_0_inst.newblkmem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst , A write address: 0, B read address: 0
+blk_mem_gen_v8_4_5 collision detected at time: 320000, Instance: hdmi_text_controller_tb.hdmi_text_controller_v1_0_inst.newblkmem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst , A write address: 0, B read address: 0
+blk_mem_gen_v8_4_5 collision detected at time: 330000, Instance: hdmi_text_controller_tb.hdmi_text_controller_v1_0_inst.newblkmem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst , A write address: 0, B read address: 0
+blk_mem_gen_v8_4_5 collision detected at time: 340000, Instance: hdmi_text_controller_tb.hdmi_text_controller_v1_0_inst.newblkmem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst , A write address: 0, B read address: 0
+blk_mem_gen_v8_4_5 collision detected at time: 350000, Instance: hdmi_text_controller_tb.hdmi_text_controller_v1_0_inst.newblkmem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst , A write address: 0, B read address: 0
+blk_mem_gen_v8_4_5 collision detected at time: 360000, Instance: hdmi_text_controller_tb.hdmi_text_controller_v1_0_inst.newblkmem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst , A write address: 0, B read address: 0
+blk_mem_gen_v8_4_5 collision detected at time: 370000, Instance: hdmi_text_controller_tb.hdmi_text_controller_v1_0_inst.newblkmem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst , A write address: 0, B read address: 0
+blk_mem_gen_v8_4_5 collision detected at time: 380000, Instance: hdmi_text_controller_tb.hdmi_text_controller_v1_0_inst.newblkmem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst , A write address: 0, B read address: 0
+blk_mem_gen_v8_4_5 collision detected at time: 390000, Instance: hdmi_text_controller_tb.hdmi_text_controller_v1_0_inst.newblkmem.inst.\native_mem_module.blk_mem_gen_v8_4_5_inst , A write address: 0, B read address: 0
+Info: Read back of control register: 001f6000
+Time: 192360 ns  Iteration: 0  Process: /hdmi_text_controller_tb/Initial267_922  Scope: hdmi_text_controller_tb.TEST_VECTORS  File: c:/385/lab67redo/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_tb.sv Line: 293
+Saving bitmap 'lab7_1_sim.bmp'.
+$finish called at time : 15648350 ns : File "c:/385/lab67redo/ip_repo/hdmi_text_controller_1_0/src/hdmi_text_controller_v1_0_tb.sv" Line 302
+INFO: xsimkernel Simulation Memory Usage: 80972 KB (Peak: 80972 KB), Simulation CPU Usage: 454905 ms

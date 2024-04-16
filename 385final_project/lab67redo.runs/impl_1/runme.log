@@ -1,0 +1,1195 @@
+
+*** Running vivado
+    with args -log mb_usb_hdmi_top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source mb_usb_hdmi_top.tcl -notrace
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source mb_usb_hdmi_top.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 373.539 ; gain = 65.949
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/385/lab67redo/ip_repo/hdmi_text_controller_1_0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/385/lab67redo/ip_repo/hdmi_text_controller_1_0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/385/lab67redo/ip_repo/hdmi_text_controller_1_0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/385/lab67redo/ip_repo/hdmi_text_controller_1_0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/385/lab67redo/ip_repo/hdmi_text_controller_1_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/385/lab67redo/hdmi_tx_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+Command: link_design -top mb_usb_hdmi_top -part xc7s50csga324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7s50csga324-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_axi_uartlite_0_0/mb_usb_axi_uartlite_0_0.dcp' for cell 'mb_usb_i/axi_uartlite_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_clk_wiz_1_0/mb_usb_clk_wiz_1_0.dcp' for cell 'mb_usb_i/clk_wiz_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/mb_usb_hdmi_text_controller_0_0.dcp' for cell 'mb_usb_i/hdmi_text_controller_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_mdm_1_0/mb_usb_mdm_1_0.dcp' for cell 'mb_usb_i/mdm_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_microblaze_0_0/mb_usb_microblaze_0_0.dcp' for cell 'mb_usb_i/microblaze_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_microblaze_0_axi_intc_0/mb_usb_microblaze_0_axi_intc_0.dcp' for cell 'mb_usb_i/microblaze_0_axi_intc'
+INFO: [Project 1-454] Reading design checkpoint 'c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_rst_clk_wiz_1_100M_0/mb_usb_rst_clk_wiz_1_100M_0.dcp' for cell 'mb_usb_i/rst_clk_wiz_1_100M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_xbar_0/mb_usb_xbar_0.dcp' for cell 'mb_usb_i/microblaze_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_dlmb_bram_if_cntlr_0/mb_usb_dlmb_bram_if_cntlr_0.dcp' for cell 'mb_usb_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_dlmb_v10_0/mb_usb_dlmb_v10_0.dcp' for cell 'mb_usb_i/microblaze_0_local_memory/dlmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_ilmb_bram_if_cntlr_0/mb_usb_ilmb_bram_if_cntlr_0.dcp' for cell 'mb_usb_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_ilmb_v10_0/mb_usb_ilmb_v10_0.dcp' for cell 'mb_usb_i/microblaze_0_local_memory/ilmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_lmb_bram_0/mb_usb_lmb_bram_0.dcp' for cell 'mb_usb_i/microblaze_0_local_memory/lmb_bram'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.414 . Memory (MB): peak = 869.492 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 409 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_microblaze_0_0/mb_usb_microblaze_0_0.xdc] for cell 'mb_usb_i/microblaze_0/U0'
+Finished Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_microblaze_0_0/mb_usb_microblaze_0_0.xdc] for cell 'mb_usb_i/microblaze_0/U0'
+Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_microblaze_0_axi_intc_0/mb_usb_microblaze_0_axi_intc_0.xdc] for cell 'mb_usb_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_microblaze_0_axi_intc_0/mb_usb_microblaze_0_axi_intc_0.xdc] for cell 'mb_usb_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_clk_wiz_1_0/mb_usb_clk_wiz_1_0_board.xdc] for cell 'mb_usb_i/clk_wiz_1/inst'
+Finished Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_clk_wiz_1_0/mb_usb_clk_wiz_1_0_board.xdc] for cell 'mb_usb_i/clk_wiz_1/inst'
+Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_clk_wiz_1_0/mb_usb_clk_wiz_1_0.xdc] for cell 'mb_usb_i/clk_wiz_1/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_clk_wiz_1_0/mb_usb_clk_wiz_1_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_clk_wiz_1_0/mb_usb_clk_wiz_1_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:10 ; elapsed = 00:00:16 . Memory (MB): peak = 1451.203 ; gain = 447.809
+Finished Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_clk_wiz_1_0/mb_usb_clk_wiz_1_0.xdc] for cell 'mb_usb_i/clk_wiz_1/inst'
+Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_rst_clk_wiz_1_100M_0/mb_usb_rst_clk_wiz_1_100M_0_board.xdc] for cell 'mb_usb_i/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_rst_clk_wiz_1_100M_0/mb_usb_rst_clk_wiz_1_100M_0_board.xdc] for cell 'mb_usb_i/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_rst_clk_wiz_1_100M_0/mb_usb_rst_clk_wiz_1_100M_0.xdc] for cell 'mb_usb_i/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_rst_clk_wiz_1_100M_0/mb_usb_rst_clk_wiz_1_100M_0.xdc] for cell 'mb_usb_i/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_axi_uartlite_0_0/mb_usb_axi_uartlite_0_0_board.xdc] for cell 'mb_usb_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_axi_uartlite_0_0/mb_usb_axi_uartlite_0_0_board.xdc] for cell 'mb_usb_i/axi_uartlite_0/U0'
+Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_axi_uartlite_0_0/mb_usb_axi_uartlite_0_0.xdc] for cell 'mb_usb_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_axi_uartlite_0_0/mb_usb_axi_uartlite_0_0.xdc] for cell 'mb_usb_i/axi_uartlite_0/U0'
+Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0.xdc] for cell 'mb_usb_i/hdmi_text_controller_0/inst/clk_wiz/inst'
+Finished Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0.xdc] for cell 'mb_usb_i/hdmi_text_controller_0/inst/clk_wiz/inst'
+Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc] for cell 'mb_usb_i/hdmi_text_controller_0/inst'
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/mb_usb_hdmi_top.xdc] for cell 'mb_usb_i/hdmi_text_controller_0/inst'
+Parsing XDC File [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc]
+CRITICAL WARNING: [Constraints 18-1055] Clock 'clk_100' completely overrides clock 'Clk', which is referenced by one or more other constraints. Any constraints that refer to the overridden clock will be ignored.
+New: create_clock -period 10.000 -name clk_100 -waveform {0.000 5.000} [get_ports Clk], [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:1]
+Previous: create_clock -period 10.000 [get_ports Clk], [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_clk_wiz_1_0/mb_usb_clk_wiz_1_0.xdc:56]
+Resolution: Review the constraint files and remove the redundant clock definition(s). If the clock constraints are not saved in a file, you can first save the constraints to an XDC file and reload the design once the constraints have been corrected.
+WARNING: [Vivado 12-584] No ports matched 'gpio_usb_int_tri_i[0]'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'usb_spi_miso'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'usb_spi_mosi'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'usb_spi_sclk'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'gpio_usb_int_tri_i[0]'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'usb_spi_sclk'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'usb_spi_mosi'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'usb_spi_miso'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'gpio_usb_rst_tri_o'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'gpio_usb_rst_tri_o'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'usb_spi_ss'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'usb_spi_ss'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hex_gridA[3]'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hex_gridA[2]'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hex_gridA[1]'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hex_gridA[0]'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hex_gridB[3]'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hex_gridB[2]'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hex_gridB[1]'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hex_gridB[0]'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hex_segA[7]'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hex_segA[6]'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hex_segA[5]'. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:37]
+INFO: [Common 17-14] Message 'Vivado 12-584' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+INFO: [Common 17-14] Message 'Common 17-55' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc:38]
+Finished Parsing XDC File [C:/385/lab67redo/lab67redo.srcs/constrs_1/imports/datafiles/mb_usb_hdmi_top.xdc]
+Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_microblaze_0_axi_intc_0/mb_usb_microblaze_0_axi_intc_0_clocks.xdc] for cell 'mb_usb_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_microblaze_0_axi_intc_0/mb_usb_microblaze_0_axi_intc_0_clocks.xdc] for cell 'mb_usb_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_mdm_1_0/mb_usb_mdm_1_0.xdc] for cell 'mb_usb_i/mdm_1/U0'
+INFO: [Timing 38-2] Deriving generated clocks [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_mdm_1_0/mb_usb_mdm_1_0.xdc:50]
+Finished Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_mdm_1_0/mb_usb_mdm_1_0.xdc] for cell 'mb_usb_i/mdm_1/U0'
+Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0_late.xdc] for cell 'mb_usb_i/hdmi_text_controller_0/inst/clk_wiz/inst'
+Finished Parsing XDC File [c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_hdmi_text_controller_0_0/src/clk_wiz_0/clk_wiz_0_late.xdc] for cell 'mb_usb_i/hdmi_text_controller_0/inst/clk_wiz/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Generating merged BMM file for the design top 'mb_usb_hdmi_top'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/385/lab67redo/lab67redo.gen/sources_1/bd/mb_usb/ip/mb_usb_microblaze_0_0/data/mb_bootloop_le.elf 
+INFO: [Project 1-1687] 78 scoped IP constraints or related sub-commands were skipped due to synthesis logic optimizations usually triggered by constant connectivity or unconnected output pins. To review the skipped constraints and messages, run the command 'set_param netlist.IPMsgFiltering false' before opening the design.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 1453.207 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 241 instances were transformed.
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 145 instances
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 32 instances
+  RAM32X1D => RAM32X1D (RAMD32(x2)): 64 instances
+
+33 Infos, 25 Warnings, 101 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:41 . Memory (MB): peak = 1453.207 ; gain = 1022.613
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s50'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1453.207 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: fe0e7133
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.824 . Memory (MB): peak = 1471.992 ; gain = 18.785
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-1287] Pulled Inverter mb_usb_i/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/Use_BSCAN.FDC_I/Use_Serial_Unified_Completion.Completion_Status_Register.sample_1[15]_i_1 into driver instance mb_usb_i/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/Use_BSCAN.FDC_I/Use_Serial_Unified_Completion.Completion_Status_Register.sample_1[15]_i_2, which resulted in an inversion of 14 pins
+INFO: [Opt 31-138] Pushed 4 inverter(s) to 6 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1b619b2fc
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.914 . Memory (MB): peak = 1799.801 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 182 cells and removed 277 cells
+INFO: [Opt 31-1021] In phase Retarget, 3 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 7 inverter(s) to 13 load pin(s).
+Phase 2 Constant propagation | Checksum: 1b814688f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 1799.801 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 126 cells and removed 286 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 110957907
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1799.801 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 1 cells and removed 72 cells
+INFO: [Opt 31-1021] In phase Sweep, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG mb_usb_i/mdm_1/U0/Use_E2.BSCAN_I/Dbg_Update_0_BUFG_inst to drive 40 load(s) on clock net mb_usb_i/mdm_1/U0/Use_E2.BSCAN_I/Dbg_Update_0_BUFG
+INFO: [Opt 31-193] Inserted 1 BUFG(s) on clock nets
+Phase 4 BUFG optimization | Checksum: e680ba71
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1799.801 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 1 cells of which 1 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: e680ba71
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1799.801 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: db06aa25
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1799.801 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |             182  |             277  |                                              3  |
+|  Constant propagation         |             126  |             286  |                                              1  |
+|  Sweep                        |               1  |              72  |                                              1  |
+|  BUFG optimization            |               1  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              1  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.029 . Memory (MB): peak = 1799.801 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: f34a097f
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1799.801 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 35 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 70
+Ending PowerOpt Patch Enables Task | Checksum: f34a097f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.297 . Memory (MB): peak = 1912.102 ; gain = 0.000
+Ending Power Optimization Task | Checksum: f34a097f
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1912.102 ; gain = 112.301
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: f34a097f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1912.102 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: f34a097f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1912.102 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+62 Infos, 25 Warnings, 101 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1912.102 ; gain = 458.895
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 1912.102 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/385/lab67redo/lab67redo.runs/impl_1/mb_usb_hdmi_top_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1912.102 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file mb_usb_hdmi_top_drc_opted.rpt -pb mb_usb_hdmi_top_drc_opted.pb -rpx mb_usb_hdmi_top_drc_opted.rpx
+Command: report_drc -file mb_usb_hdmi_top_drc_opted.rpt -pb mb_usb_hdmi_top_drc_opted.pb -rpx mb_usb_hdmi_top_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/385/lab67redo/lab67redo.runs/impl_1/mb_usb_hdmi_top_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 21 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1912.102 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 983813b9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 1912.102 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: cedc868a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 15aebd9f5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 15aebd9f5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1912.102 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 15aebd9f5
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 148be2109
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 1c1080057
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 1c1080057
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: 20dac366f
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 2.4.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 9 LUTNM shape to break, 154 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 3, two critical 6, total 9, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 78 nets or LUTs. Breaked 9 LUTs, combined 69 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-1123] No candidate cells found for Shift Register to Pipeline optimization
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-775] End 1 Pass. Optimized 7 nets or cells. Created 7 new cells, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1912.102 ; gain = 0.000
+INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-846] No candidate cells for URAM register optimization found in the design
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            9  |             69  |                    78  |           0  |           1  |  00:00:00  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |            7  |              0  |                     7  |           0  |           1  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |           16  |             69  |                    85  |           0  |           9  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: 1a4031aa5
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1912.102 ; gain = 0.000
+Phase 2.4 Global Placement Core | Checksum: eca72cd0
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1912.102 ; gain = 0.000
+Phase 2 Global Placement | Checksum: eca72cd0
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 19c0831a1
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 17178cf5c
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 16bd9cba2
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1bd00026e
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 3.5 Fast Optimization
+Phase 3.5 Fast Optimization | Checksum: fed46974
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: 225c41c41
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 218d8e037
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: 1ac77e88a
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 3.9 Fast Optimization
+Phase 3.9 Fast Optimization | Checksum: 1d2201ce5
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:33 . Memory (MB): peak = 1912.102 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 1d2201ce5
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:33 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 183ac9832
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-1.618 | TNS=-16.776 |
+Phase 1 Physical Synthesis Initialization | Checksum: 1e0e3d1ac
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.485 . Memory (MB): peak = 1912.102 ; gain = 0.000
+INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
+Ending Physical Synthesis Task | Checksum: 24c92c6db
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.570 . Memory (MB): peak = 1912.102 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 183ac9832
+
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:36 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-0.545. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 1ac9ae6a8
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:53 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:53 . Memory (MB): peak = 1912.102 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 1ac9ae6a8
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:53 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1ac9ae6a8
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:53 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                1x1|                2x2|
+|___________|___________________|___________________|
+|      South|                1x1|                2x2|
+|___________|___________________|___________________|
+|       East|                1x1|                1x1|
+|___________|___________________|___________________|
+|       West|                1x1|                1x1|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 1ac9ae6a8
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:53 . Memory (MB): peak = 1912.102 ; gain = 0.000
+Phase 4.3 Placer Reporting | Checksum: 1ac9ae6a8
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:53 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:53 . Memory (MB): peak = 1912.102 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 19896b8c7
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:53 . Memory (MB): peak = 1912.102 ; gain = 0.000
+Ending Placer Task | Checksum: 15180394d
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:53 . Memory (MB): peak = 1912.102 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+101 Infos, 25 Warnings, 101 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:55 . Memory (MB): peak = 1912.102 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:01 . Memory (MB): peak = 1912.102 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/385/lab67redo/lab67redo.runs/impl_1/mb_usb_hdmi_top_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1912.102 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_io -file mb_usb_hdmi_top_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.090 . Memory (MB): peak = 1912.102 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file mb_usb_hdmi_top_utilization_placed.rpt -pb mb_usb_hdmi_top_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file mb_usb_hdmi_top_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1912.102 ; gain = 0.000
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s50'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1912.102 ; gain = 0.000
+INFO: [Vivado_Tcl 4-1435] PhysOpt_Tcl_Interface Runtime Before Starting Physical Synthesis Task | CPU: 2.00s |  WALL: 1.69s
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.545 | TNS=-4.002 |
+Phase 1 Physical Synthesis Initialization | Checksum: 16ea78200
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1912.102 ; gain = 0.000
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.545 | TNS=-4.002 |
+
+Phase 2 DSP Register Optimization
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Phase 2 DSP Register Optimization | Checksum: 16ea78200
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 3 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.545 | TNS=-4.002 |
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga_to_hdmi/inst/srldly_0/data_o[37]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-1134] Processed net mb_usb_i/clk_wiz_1/inst/clk_out1_mb_usb_clk_wiz_1_0. Created 1 instance.
+INFO: [Physopt 32-735] Processed net mb_usb_i/clk_wiz_1/inst/clk_out1_mb_usb_clk_wiz_1_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.527 | TNS=-3.845 |
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga_to_hdmi/inst/srldly_0/data_o[36]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-1134] Processed net mb_usb_i/clk_wiz_1/inst/clk_out1_mb_usb_clk_wiz_1_0. Created 1 instance.
+INFO: [Physopt 32-735] Processed net mb_usb_i/clk_wiz_1/inst/clk_out1_mb_usb_clk_wiz_1_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.509 | TNS=-3.712 |
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga_to_hdmi/inst/srldly_0/data_o[34]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-1134] Processed net mb_usb_i/clk_wiz_1/inst/clk_out1_mb_usb_clk_wiz_1_0. Created 1 instance.
+INFO: [Physopt 32-735] Processed net mb_usb_i/clk_wiz_1/inst/clk_out1_mb_usb_clk_wiz_1_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.503 | TNS=-3.702 |
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga_to_hdmi/inst/srldly_0/data_o[35]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-1134] Processed net mb_usb_i/clk_wiz_1/inst/clk_out1_mb_usb_clk_wiz_1_0. Created 1 instance.
+INFO: [Physopt 32-735] Processed net mb_usb_i/clk_wiz_1/inst/clk_out1_mb_usb_clk_wiz_1_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.499 | TNS=-3.533 |
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga_to_hdmi/inst/srldly_0/srlopt_n_9. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_usb_i/clk_wiz_1/inst/clk_out1_mb_usb_clk_wiz_1_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 19 pins.
+INFO: [Physopt 32-735] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_17_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.328 | TNS=-2.211 |
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga_to_hdmi/inst/srldly_0/data_o[18]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-1134] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_32_n_0. Created 1 instance.
+INFO: [Physopt 32-735] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_32_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.292 | TNS=-1.944 |
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_17_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_72_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/color_instance/data5. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_203_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_222_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.272 | TNS=-1.801 |
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga_to_hdmi/inst/srldly_0/srlopt_n_6. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_47_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.260 | TNS=-1.671 |
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga_to_hdmi/inst/srldly_0/srlopt_n_2. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 23 pins.
+INFO: [Physopt 32-735] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_39_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.254 | TNS=-1.547 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_63_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.247 | TNS=-1.513 |
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga_to_hdmi/inst/srldly_0/srlopt_n_8. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_55_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.220 | TNS=-1.381 |
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_73_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/color_instance/data3. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_213_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_243_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 22 pins.
+INFO: [Physopt 32-735] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_330_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.209 | TNS=-1.215 |
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/color_instance/data6. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_210_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_237_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_317_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/g29_b5_n_0.  Re-placed instance mb_usb_i/hdmi_text_controller_0/inst/vga/g29_b5
+INFO: [Physopt 32-735] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/g29_b5_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.208 | TNS=-1.213 |
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/color_instance/data4. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_207_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_231_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_292_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/g15_b3_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/color_instance/sprite_addr[4]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/color_instance/sprite_addr[4]. Critical path length was reduced through logic transformation on cell mb_usb_i/hdmi_text_controller_0/inst/vga/g0_b0_i_1_comp.
+INFO: [Physopt 32-735] Processed net mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/doutb[24]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.114 | TNS=-0.125 |
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/color_instance/data7. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_205_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_227_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.111 | TNS=-0.116 |
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_208_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_233_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_300_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-663] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/g31_b3_n_0.  Re-placed instance mb_usb_i/hdmi_text_controller_0/inst/vga/g31_b3
+INFO: [Physopt 32-735] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/g31_b3_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.088 | TNS=-0.088 |
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_206_n_0. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_228_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.086 | TNS=-0.086 |
+INFO: [Physopt 32-608] Optimized 1 net.  Swapped 24 pins.
+INFO: [Physopt 32-735] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/vga_to_hdmi_i_223_n_0. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.078 | TNS=-0.078 |
+INFO: [Physopt 32-702] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/color_instance/sprite_addr[5]. Optimizations did not improve timing on the net.
+INFO: [Physopt 32-710] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/color_instance/sprite_addr[5]. Critical path length was reduced through logic transformation on cell mb_usb_i/hdmi_text_controller_0/inst/vga/g0_b0_i_2_comp.
+INFO: [Physopt 32-735] Processed net mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/doutb[9]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.033 | TNS=-0.033 |
+INFO: [Physopt 32-710] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/color_instance/sprite_addr[5]. Critical path length was reduced through logic transformation on cell mb_usb_i/hdmi_text_controller_0/inst/vga/g0_b0_i_2_comp_1.
+INFO: [Physopt 32-735] Processed net mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/doutb[25]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.012 | TNS=-0.012 |
+INFO: [Physopt 32-710] Processed net mb_usb_i/hdmi_text_controller_0/inst/vga/color_instance/sprite_addr[4]. Critical path length was reduced through logic transformation on cell mb_usb_i/hdmi_text_controller_0/inst/vga/g0_b0_i_1_comp_1.
+INFO: [Physopt 32-735] Processed net mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/doutb[8]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-0.002 | TNS=-0.002 |
+INFO: [Physopt 32-663] Processed net mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/doutb[8].  Re-placed instance mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/doutb[8]_INST_0_comp
+INFO: [Physopt 32-735] Processed net mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/doutb[8]. Optimization improves timing on the net.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.083 | TNS=0.000 |
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.083 | TNS=0.000 |
+Phase 3 Critical Path Optimization | Checksum: 16ea78200
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 4 Critical Path Optimization
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.083 | TNS=0.000 |
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=0.083 | TNS=0.000 |
+Phase 4 Critical Path Optimization | Checksum: 16ea78200
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1912.102 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 1912.102 ; gain = 0.000
+INFO: [Physopt 32-603] Post Physical Optimization Timing Summary | WNS=0.083 | TNS=0.000 |
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization   |  WNS Gain (ns)  |  TNS Gain (ns)  |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+|  DSP Register   |          0.000  |          0.000  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Critical Path  |          0.628  |          4.002  |            5  |              0  |                    22  |           0  |           2  |  00:00:07  |
+|  Total          |          0.628  |          4.002  |            5  |              0  |                    22  |           0  |           3  |  00:00:07  |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 1912.102 ; gain = 0.000
+Ending Physical Synthesis Task | Checksum: 14de3756d
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1912.102 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+220 Infos, 25 Warnings, 101 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1912.102 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1912.102 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/385/lab67redo/lab67redo.runs/impl_1/mb_usb_hdmi_top_physopt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1912.102 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: 68f0cef5 ConstDB: 0 ShapeSum: 77c11733 RouteDB: 0
+Post Restoration Checksum: NetGraph: 6a6718f NumContArr: b890f022 Constraints: 0 Timing: 0
+Phase 1 Build RT Design | Checksum: bf3761b1
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:45 . Memory (MB): peak = 1912.102 ; gain = 0.000
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: bf3761b1
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:45 . Memory (MB): peak = 1914.531 ; gain = 2.430
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: bf3761b1
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:45 . Memory (MB): peak = 1914.531 ; gain = 2.430
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: 16579aee5
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:49 . Memory (MB): peak = 1928.191 ; gain = 16.090
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.317  | TNS=0.000  | WHS=-0.289 | THS=-39.453|
+
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.00677669 %
+  Global Horizontal Routing Utilization  = 0.00130141 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 4027
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 4027
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 1e1c54a8d
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:51 . Memory (MB): peak = 1949.344 ; gain = 37.242
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 1e1c54a8d
+
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:51 . Memory (MB): peak = 1949.344 ; gain = 37.242
+Phase 3 Initial Routing | Checksum: 2afdf107d
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:01:00 . Memory (MB): peak = 1989.129 ; gain = 77.027
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 1087
+ Number of Nodes with overlaps = 301
+ Number of Nodes with overlaps = 126
+ Number of Nodes with overlaps = 75
+ Number of Nodes with overlaps = 41
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.725 | TNS=-4.516 | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 21f2beb15
+
+Time (s): cpu = 00:01:04 ; elapsed = 00:01:20 . Memory (MB): peak = 1989.129 ; gain = 77.027
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 188
+ Number of Nodes with overlaps = 82
+ Number of Nodes with overlaps = 36
+ Number of Nodes with overlaps = 13
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.727 | TNS=-3.645 | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 113d97586
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:01:28 . Memory (MB): peak = 1989.129 ; gain = 77.027
+Phase 4 Rip-up And Reroute | Checksum: 113d97586
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:01:28 . Memory (MB): peak = 1989.129 ; gain = 77.027
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 1200eab1d
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:01:29 . Memory (MB): peak = 1989.129 ; gain = 77.027
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.725 | TNS=-4.516 | WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5.1 Delay CleanUp | Checksum: 1e993c0af
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:01:29 . Memory (MB): peak = 1989.129 ; gain = 77.027
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1e993c0af
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:01:29 . Memory (MB): peak = 1989.129 ; gain = 77.027
+Phase 5 Delay and Skew Optimization | Checksum: 1e993c0af
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:01:29 . Memory (MB): peak = 1989.129 ; gain = 77.027
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1f6921676
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:01:30 . Memory (MB): peak = 1989.129 ; gain = 77.027
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-0.699 | TNS=-4.315 | WHS=0.095  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1f6921676
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:01:30 . Memory (MB): peak = 1989.129 ; gain = 77.027
+Phase 6 Post Hold Fix | Checksum: 1f6921676
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:01:30 . Memory (MB): peak = 1989.129 ; gain = 77.027
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 2.0346 %
+  Global Horizontal Routing Utilization  = 2.22866 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 67.5676%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 58.5586%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 69.1176%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 61.7647%, No Congested Regions.
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+
+Phase 7 Route finalize | Checksum: 1c93ab676
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:01:30 . Memory (MB): peak = 1989.129 ; gain = 77.027
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 1c93ab676
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:01:30 . Memory (MB): peak = 1989.129 ; gain = 77.027
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1617211fc
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:01:31 . Memory (MB): peak = 1989.129 ; gain = 77.027
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-0.699 | TNS=-4.315 | WHS=0.095  | THS=0.000  |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 10 Post Router Timing | Checksum: 1617211fc
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:01:32 . Memory (MB): peak = 1989.129 ; gain = 77.027
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:01:12 ; elapsed = 00:01:32 . Memory (MB): peak = 1989.129 ; gain = 77.027
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+238 Infos, 26 Warnings, 101 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:15 ; elapsed = 00:01:34 . Memory (MB): peak = 1989.129 ; gain = 77.027
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 1989.129 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/385/lab67redo/lab67redo.runs/impl_1/mb_usb_hdmi_top_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1989.129 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file mb_usb_hdmi_top_drc_routed.rpt -pb mb_usb_hdmi_top_drc_routed.pb -rpx mb_usb_hdmi_top_drc_routed.rpx
+Command: report_drc -file mb_usb_hdmi_top_drc_routed.rpt -pb mb_usb_hdmi_top_drc_routed.pb -rpx mb_usb_hdmi_top_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file C:/385/lab67redo/lab67redo.runs/impl_1/mb_usb_hdmi_top_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file mb_usb_hdmi_top_methodology_drc_routed.rpt -pb mb_usb_hdmi_top_methodology_drc_routed.pb -rpx mb_usb_hdmi_top_methodology_drc_routed.rpx
+Command: report_methodology -file mb_usb_hdmi_top_methodology_drc_routed.rpt -pb mb_usb_hdmi_top_methodology_drc_routed.pb -rpx mb_usb_hdmi_top_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file C:/385/lab67redo/lab67redo.runs/impl_1/mb_usb_hdmi_top_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1989.129 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_power -file mb_usb_hdmi_top_power_routed.rpt -pb mb_usb_hdmi_top_power_summary_routed.pb -rpx mb_usb_hdmi_top_power_routed.rpx
+Command: report_power -file mb_usb_hdmi_top_power_routed.rpt -pb mb_usb_hdmi_top_power_summary_routed.pb -rpx mb_usb_hdmi_top_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+250 Infos, 27 Warnings, 101 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file mb_usb_hdmi_top_route_status.rpt -pb mb_usb_hdmi_top_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -file mb_usb_hdmi_top_timing_summary_routed.rpt -pb mb_usb_hdmi_top_timing_summary_routed.pb -rpx mb_usb_hdmi_top_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file mb_usb_hdmi_top_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file mb_usb_hdmi_top_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file mb_usb_hdmi_top_bus_skew_routed.rpt -pb mb_usb_hdmi_top_bus_skew_routed.pb -rpx mb_usb_hdmi_top_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+Command: write_bitstream -force mb_usb_hdmi_top.bit
+Attempting to get a license for feature 'Implementation' and/or device 'xc7s50'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7s50'
+Running DRC as a precondition to command write_bitstream
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC CFGBVS-1] Missing CFGBVS and CONFIG_VOLTAGE Design Properties: Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+WARNING: [DRC CHECK-3] Report rule limit reached: REQP-1839 rule limit reached: 20 violations have been found.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[12] (net: mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[8]) which is driven by a register (mb_usb_i/hdmi_text_controller_0/inst/vga/vc_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[12] (net: mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[8]) which is driven by a register (mb_usb_i/hdmi_text_controller_0/inst/vga/vc_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[13] (net: mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[9]) which is driven by a register (mb_usb_i/hdmi_text_controller_0/inst/vga/hc_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[13] (net: mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[9]) which is driven by a register (mb_usb_i/hdmi_text_controller_0/inst/vga/hc_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[13] (net: mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[9]) which is driven by a register (mb_usb_i/hdmi_text_controller_0/inst/vga/hc_reg[9]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[13] (net: mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[9]) which is driven by a register (mb_usb_i/hdmi_text_controller_0/inst/vga/vc_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[13] (net: mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[9]) which is driven by a register (mb_usb_i/hdmi_text_controller_0/inst/vga/vc_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[13] (net: mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[9]) which is driven by a register (mb_usb_i/hdmi_text_controller_0/inst/vga/vc_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[13] (net: mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[9]) which is driven by a register (mb_usb_i/hdmi_text_controller_0/inst/vga/vc_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[13] (net: mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[9]) which is driven by a register (mb_usb_i/hdmi_text_controller_0/inst/vga/vc_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[13] (net: mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[9]) which is driven by a register (mb_usb_i/hdmi_text_controller_0/inst/vga/vc_reg[9]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[14] (net: mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[10]) which is driven by a register (mb_usb_i/hdmi_text_controller_0/inst/vga/hc_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[14] (net: mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[10]) which is driven by a register (mb_usb_i/hdmi_text_controller_0/inst/vga/hc_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[14] (net: mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[10]) which is driven by a register (mb_usb_i/hdmi_text_controller_0/inst/vga/hc_reg[9]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[14] (net: mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[10]) which is driven by a register (mb_usb_i/hdmi_text_controller_0/inst/vga/vc_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[14] (net: mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[10]) which is driven by a register (mb_usb_i/hdmi_text_controller_0/inst/vga/vc_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[14] (net: mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[10]) which is driven by a register (mb_usb_i/hdmi_text_controller_0/inst/vga/vc_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[14] (net: mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[10]) which is driven by a register (mb_usb_i/hdmi_text_controller_0/inst/vga/vc_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[14] (net: mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[10]) which is driven by a register (mb_usb_i/hdmi_text_controller_0/inst/vga/vc_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has an input control pin mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram/ADDRBWRADDR[14] (net: mb_usb_i/hdmi_text_controller_0/inst/newblkmem/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/addrb[10]) which is driven by a register (mb_usb_i/hdmi_text_controller_0/inst/vga/vc_reg[9]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 22 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./mb_usb_hdmi_top.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-1876] WebTalk data collection is mandatory when using a ULT device. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
+INFO: [Common 17-83] Releasing license: Implementation
+12 Infos, 22 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_bitstream completed successfully
+write_bitstream: Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 2427.758 ; gain = 438.629
+INFO: [Common 17-206] Exiting Vivado at Thu Apr  4 17:00:02 2024...

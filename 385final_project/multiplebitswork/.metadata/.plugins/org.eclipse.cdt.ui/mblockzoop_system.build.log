@@ -1,0 +1,6 @@
+09:55:51 **** Build of configuration Debug for project mblockzoop_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+09:55:51 Build Finished (took 202ms)
+
