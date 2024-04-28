@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="sixpttwovitis" location="C:/385/project_6final/workspace6pointtwo/sixpttwovitis" platform="C:/385/project_6final/workspace6pointtwo/mb_6final_hardwarebitstream/export/mb_6final_hardwarebitstream/mb_6final_hardwarebitstream.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="sixpttwovitis_system" sysConfig="mb_6final_hardwarebitstream" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="bb8ece26013881ebeb5cfe726cc998c5">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.501242769">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1164978091" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

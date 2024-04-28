@@ -1,0 +1,7 @@
+09:53:44 DEBUG : Logs will be stored at 'C:/Users/Ryan/OneDrive - University of Illinois - Urbana/385/Lab6/project_6final/workspace6final/IDE.log'.
+09:53:47 ERROR : Workspace location C:\Users\Ryan\OneDrive - University of Illinois - Urbana\385\Lab6\project_6final\workspace6final contains spaces. Please switch to a workspace without spaces in its path.
+09:53:49 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Ryan\OneDrive - University of Illinois - Urbana\385\Lab6\project_6final\workspace6final\temp_xsdb_launch_script.tcl
+09:53:49 INFO  : Platform repository initialization has completed.
+09:53:49 INFO  : Registering command handlers for Vitis TCF services
+09:53:52 ERROR : (XSDB Server)couldn't read file "C:\Users\Ryan\OneDrive": permission denied
+

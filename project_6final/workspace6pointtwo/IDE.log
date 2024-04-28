@@ -1,0 +1,58 @@
+21:35:54 DEBUG : Logs will be stored at 'C:/385/project_6final/workspace6pointtwo/IDE.log'.
+21:35:57 INFO  : Platform repository initialization has completed.
+21:35:57 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\385\project_6final\workspace6pointtwo\temp_xsdb_launch_script.tcl
+21:35:57 INFO  : Registering command handlers for Vitis TCF services
+21:36:01 INFO  : XSCT server has started successfully.
+21:36:04 INFO  : plnx-install-location is set to ''
+21:36:04 INFO  : Successfully done setting XSCT server connection channel  
+21:36:04 INFO  : Successfully done query RDI_DATADIR 
+21:36:04 INFO  : Successfully done setting workspace for the tool. 
+21:37:28 INFO  : Result from executing command 'getProjects': mb_6final_hardwarebitstream
+21:37:28 INFO  : Result from executing command 'getPlatforms': 
+21:37:28 WARN  : An unexpected exception occurred in the module 'platform project logging'
+21:37:28 INFO  : Platform 'mb_6final_hardwarebitstream' is added to custom repositories.
+21:37:30 INFO  : Platform 'mb_6final_hardwarebitstream' is added to custom repositories.
+12:24:29 INFO  : Result from executing command 'removePlatformRepo': 
+12:24:42 INFO  : Result from executing command 'getProjects': mb_6final_hardwarebitstream
+12:24:42 INFO  : Result from executing command 'getPlatforms': 
+12:24:43 INFO  : Checking for BSP changes to sync application flags for project 'sixpttwovitis'...
+12:27:14 INFO  : Result from executing command 'removePlatformRepo': 
+12:27:25 INFO  : Result from executing command 'getProjects': mb_6final_hardwarebitstream
+12:27:25 INFO  : Result from executing command 'getPlatforms': 
+12:27:25 INFO  : Checking for BSP changes to sync application flags for project 'sixpttwovitis'...
+12:28:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:28:47 INFO  : Jtag cable 'RealDigital Boo 88742923028BA' is selected.
+12:28:47 INFO  : 'jtag frequency' command is executed.
+12:28:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+12:28:48 INFO  : Device configured successfully with "C:/385/project_6final/workspace6pointtwo/sixpttwovitis/_ide/bitstream/mb_6final_hardwarebitstream.bit"
+12:28:49 INFO  : Context for processor 'microblaze_0' is selected.
+12:28:49 INFO  : Hardware design and registers information is loaded from 'C:/385/project_6final/workspace6pointtwo/mb_6final_hardwarebitstream/export/mb_6final_hardwarebitstream/hw/mb_6final_hardwarebitstream.xsa'.
+12:28:49 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:28:49 INFO  : Context for processor 'microblaze_0' is selected.
+12:28:49 INFO  : System reset is completed.
+12:28:52 INFO  : 'after 3000' command is executed.
+12:28:52 INFO  : Context for processor 'microblaze_0' is selected.
+12:28:52 INFO  : The application 'C:/385/project_6final/workspace6pointtwo/sixpttwovitis/Debug/sixpttwovitis.elf' is downloaded to processor 'microblaze_0'.
+12:28:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/project_6final/workspace6pointtwo/sixpttwovitis/_ide/bitstream/mb_6final_hardwarebitstream.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/project_6final/workspace6pointtwo/mb_6final_hardwarebitstream/export/mb_6final_hardwarebitstream/hw/mb_6final_hardwarebitstream.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/project_6final/workspace6pointtwo/sixpttwovitis/Debug/sixpttwovitis.elf
+----------------End of Script----------------
+
+12:28:52 INFO  : Context for processor 'microblaze_0' is selected.
+12:28:52 INFO  : 'con' command is executed.
+12:28:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:28:52 INFO  : Disconnected from the channel tcfchan#5.
+12:39:31 INFO  : Result from executing command 'removePlatformRepo': 

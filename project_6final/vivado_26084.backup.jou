@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Mar  8 02:25:45 2024
+# Process ID: 26084
+# Current directory: C:/Users/Ryan/OneDrive - University of Illinois - Urbana/385/Lab6/project_6final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29236 C:\Users\Ryan\OneDrive - University of Illinois - Urbana\385\Lab6\project_6final\project_6final.xpr
+# Log file: C:/Users/Ryan/OneDrive - University of Illinois - Urbana/385/Lab6/project_6final/vivado.log
+# Journal file: C:/Users/Ryan/OneDrive - University of Illinois - Urbana/385/Lab6/project_6final\vivado.jou
+# Running On: DESKTOP-1SML9H2, OS: Windows, CPU Frequency: 3302 MHz, CPU Physical cores: 4, Host memory: 17005 MB
+#-----------------------------------------------------------
+start_guiopen_project {C:/Users/Ryan/OneDrive - University of Illinois - Urbana/385/Lab6/project_6final/project_6final.xpr}
+oupdate_compile_order -fileset sources_1
+University of Illinois - Urbana/385/Lab6/project_6final/project_6final.srcs/sources_1/bd/mb_block/mb_block.bd}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1

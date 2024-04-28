@@ -1,0 +1,14 @@
++===============================+===============================+==============================================================================================================================================+
+| Launch Setup Clock            | Launch Hold Clock             | Pin                                                                                                                                          |
++===============================+===============================+==============================================================================================================================================+
+| clk_out1_mb_block_clk_wiz_1_0 | clk_out1_mb_block_clk_wiz_1_0 | mb_block_i/axi_gpio_mic/U0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[2].ce_out_i_reg[2]/R                          |
+| clk_out1_mb_block_clk_wiz_1_0 | clk_out1_mb_block_clk_wiz_1_0 | mb_block_i/axi_gpio_mic/U0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[1].ce_out_i_reg[1]/R                          |
+| clk_out1_mb_block_clk_wiz_1_0 | clk_out1_mb_block_clk_wiz_1_0 | mb_block_i/axi_gpio_mic/U0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[0].ce_out_i_reg[0]/R                          |
+| clk_out1_mb_block_clk_wiz_1_0 | clk_out1_mb_block_clk_wiz_1_0 | mb_block_i/axi_gpio_mic/U0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/GEN_BKEND_CE_REGISTERS[3].ce_out_i_reg[3]/R                          |
+| clk_out1_mb_block_clk_wiz_1_0 | clk_out1_mb_block_clk_wiz_1_0 | mb_block_i/axi_gpio_mic/U0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/MEM_DECODE_GEN[0].cs_out_i_reg[0]/D                                  |
+| clk_out1_mb_block_clk_wiz_1_0 | clk_out1_mb_block_clk_wiz_1_0 | mb_block_i/axi_gpio_mic/U0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst_reg/D                                                                      |
+| clk_out1_mb_block_clk_wiz_1_0 | clk_out1_mb_block_clk_wiz_1_0 | mb_block_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/m_areset_dly_reg[0]/D |
+| clk_out1_mb_block_clk_wiz_1_0 | clk_out1_mb_block_clk_wiz_1_0 | mb_block_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/m_areset_dly_reg[2]/D |
+| clk_out1_mb_block_clk_wiz_1_0 | clk_out1_mb_block_clk_wiz_1_0 | mb_block_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/m_areset_dly_reg[1]/D |
+| clk_out1_mb_block_clk_wiz_1_0 | clk_out1_mb_block_clk_wiz_1_0 | mb_block_i/microblaze_0_axi_periph/m01_couplers/auto_cc/inst/gen_clock_conv.gen_async_lite_conv.clock_conv_lite_fwd_aw/m_areset_dly_reg[3]/D |
++-------------------------------+-------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------+

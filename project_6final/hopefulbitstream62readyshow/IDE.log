@@ -1,0 +1,18 @@
+11:37:03 DEBUG : Logs will be stored at 'C:/385/project_6final/hopefulbitstream62readyshow/IDE.log'.
+11:37:07 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\385\project_6final\hopefulbitstream62readyshow\temp_xsdb_launch_script.tcl
+11:37:07 INFO  : Platform repository initialization has completed.
+11:37:08 INFO  : Registering command handlers for Vitis TCF services
+11:37:13 INFO  : XSCT server has started successfully.
+11:37:13 INFO  : plnx-install-location is set to ''
+11:37:13 INFO  : Successfully done setting XSCT server connection channel  
+11:37:13 INFO  : Successfully done setting workspace for the tool. 
+11:37:13 INFO  : Successfully done query RDI_DATADIR 
+11:37:53 INFO  : Result from executing command 'getProjects': 62bitstreamready
+11:37:53 INFO  : Result from executing command 'getPlatforms': 
+11:37:53 WARN  : An unexpected exception occurred in the module 'platform project logging'
+11:37:53 INFO  : Platform '62bitstreamready' is added to custom repositories.
+11:37:56 INFO  : Platform '62bitstreamready' is added to custom repositories.
+11:39:36 INFO  : Result from executing command 'removePlatformRepo': 
+11:39:50 INFO  : Result from executing command 'getProjects': 62bitstreamready
+11:39:50 INFO  : Result from executing command 'getPlatforms': 
+11:39:50 INFO  : Checking for BSP changes to sync application flags for project '62bitshowready'...

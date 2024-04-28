@@ -1,0 +1,31 @@
+13:22:01 DEBUG : Logs will be stored at 'C:/385/project_6final/workspace6pointtwoplswork/IDE.log'.
+13:22:08 INFO  : Platform repository initialization has completed.
+13:22:08 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\385\project_6final\workspace6pointtwoplswork\temp_xsdb_launch_script.tcl
+13:22:08 INFO  : Registering command handlers for Vitis TCF services
+13:22:14 INFO  : XSCT server has started successfully.
+13:22:22 INFO  : Successfully done setting XSCT server connection channel  
+13:22:22 INFO  : plnx-install-location is set to ''
+13:22:22 INFO  : Successfully done query RDI_DATADIR 
+13:22:22 INFO  : Successfully done setting workspace for the tool. 
+13:22:58 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_topplswork
+13:22:58 INFO  : Result from executing command 'getPlatforms': 
+13:22:58 WARN  : An unexpected exception occurred in the module 'platform project logging'
+13:22:59 INFO  : Platform 'mb_usb_hdmi_topplswork' is added to custom repositories.
+13:23:02 INFO  : Platform 'mb_usb_hdmi_topplswork' is added to custom repositories.
+13:27:19 INFO  : Result from executing command 'removePlatformRepo': 
+13:27:32 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_topplswork
+13:27:32 INFO  : Result from executing command 'getPlatforms': 
+13:27:33 INFO  : Checking for BSP changes to sync application flags for project 'mb_block62plsworkpls'...
+13:29:52 DEBUG : Logs will be stored at 'C:/385/project_6final/workspace6pointtwoplswork/IDE.log'.
+13:29:53 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\385\project_6final\workspace6pointtwoplswork\temp_xsdb_launch_script.tcl
+13:29:57 INFO  : XSCT server has started successfully.
+13:29:57 INFO  : Successfully done setting XSCT server connection channel  
+13:29:57 INFO  : plnx-install-location is set to ''
+13:29:57 INFO  : Successfully done setting workspace for the tool. 
+13:29:58 INFO  : Platform repository initialization has completed.
+13:29:59 INFO  : Registering command handlers for Vitis TCF services
+13:29:59 INFO  : Successfully done query RDI_DATADIR 
+13:30:09 INFO  : Result from executing command 'removePlatformRepo': 
+13:30:21 INFO  : Result from executing command 'getProjects': mb_usb_hdmi_topplswork
+13:30:21 INFO  : Result from executing command 'getPlatforms': 
+13:30:21 INFO  : Checking for BSP changes to sync application flags for project 'mb_block62plsworkpls'...

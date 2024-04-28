@@ -1,0 +1,409 @@
+19:21:00 DEBUG : Logs will be stored at 'C:/385/project_6final/hopefulbitstream/IDE.log'.
+19:21:06 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\385\project_6final\hopefulbitstream\temp_xsdb_launch_script.tcl
+19:21:06 INFO  : Platform repository initialization has completed.
+19:21:06 INFO  : Registering command handlers for Vitis TCF services
+19:21:13 INFO  : XSCT server has started successfully.
+19:21:13 INFO  : plnx-install-location is set to ''
+19:21:13 INFO  : Successfully done query RDI_DATADIR 
+19:21:13 INFO  : Successfully done setting XSCT server connection channel  
+19:21:13 INFO  : Successfully done setting workspace for the tool. 
+19:22:01 INFO  : Result from executing command 'getProjects': hopefullyworkingbitstream
+19:22:01 INFO  : Result from executing command 'getPlatforms': 
+19:22:01 WARN  : An unexpected exception occurred in the module 'platform project logging'
+19:22:01 INFO  : Platform 'hopefullyworkingbitstream' is added to custom repositories.
+19:22:06 INFO  : Platform 'hopefullyworkingbitstream' is added to custom repositories.
+19:23:46 INFO  : Result from executing command 'removePlatformRepo': 
+19:24:05 INFO  : Result from executing command 'getProjects': hopefullyworkingbitstream
+19:24:05 INFO  : Result from executing command 'getPlatforms': 
+19:24:05 INFO  : Checking for BSP changes to sync application flags for project 'hopefulbitstreamworking'...
+19:25:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:25:06 INFO  : Jtag cable 'RealDigital Boo 88742923028BA' is selected.
+19:25:06 INFO  : 'jtag frequency' command is executed.
+19:25:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+19:25:08 INFO  : Device configured successfully with "C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/_ide/bitstream/hopefullyworkingbitstream.bit"
+19:25:08 INFO  : Context for processor 'microblaze_0' is selected.
+19:25:08 INFO  : Hardware design and registers information is loaded from 'C:/385/project_6final/hopefulbitstream/hopefullyworkingbitstream/export/hopefullyworkingbitstream/hw/hopefullyworkingbitstream.xsa'.
+19:25:08 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:25:08 INFO  : Context for processor 'microblaze_0' is selected.
+19:25:08 INFO  : System reset is completed.
+19:25:11 INFO  : 'after 3000' command is executed.
+19:25:11 INFO  : Context for processor 'microblaze_0' is selected.
+19:25:11 INFO  : The application 'C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/Debug/hopefulbitstreamworking.elf' is downloaded to processor 'microblaze_0'.
+19:25:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/_ide/bitstream/hopefullyworkingbitstream.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/project_6final/hopefulbitstream/hopefullyworkingbitstream/export/hopefullyworkingbitstream/hw/hopefullyworkingbitstream.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/Debug/hopefulbitstreamworking.elf
+----------------End of Script----------------
+
+19:25:11 INFO  : Context for processor 'microblaze_0' is selected.
+19:25:11 INFO  : 'con' command is executed.
+19:25:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+19:25:11 INFO  : Disconnected from the channel tcfchan#3.
+11:03:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:03:24 INFO  : Jtag cable 'RealDigital Boo 88742923028BA' is selected.
+11:03:24 INFO  : 'jtag frequency' command is executed.
+11:03:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:03:25 INFO  : Device configured successfully with "C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/_ide/bitstream/hopefullyworkingbitstream.bit"
+11:03:25 INFO  : Context for processor 'microblaze_0' is selected.
+11:03:25 INFO  : Hardware design and registers information is loaded from 'C:/385/project_6final/hopefulbitstream/hopefullyworkingbitstream/export/hopefullyworkingbitstream/hw/hopefullyworkingbitstream.xsa'.
+11:03:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:03:25 INFO  : Context for processor 'microblaze_0' is selected.
+11:03:25 INFO  : System reset is completed.
+11:03:28 INFO  : 'after 3000' command is executed.
+11:03:28 INFO  : Context for processor 'microblaze_0' is selected.
+11:03:29 INFO  : The application 'C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/Debug/hopefulbitstreamworking.elf' is downloaded to processor 'microblaze_0'.
+11:03:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/_ide/bitstream/hopefullyworkingbitstream.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/project_6final/hopefulbitstream/hopefullyworkingbitstream/export/hopefullyworkingbitstream/hw/hopefullyworkingbitstream.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/Debug/hopefulbitstreamworking.elf
+----------------End of Script----------------
+
+11:03:29 INFO  : Context for processor 'microblaze_0' is selected.
+11:03:29 INFO  : 'con' command is executed.
+11:03:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:03:29 INFO  : Disconnected from the channel tcfchan#4.
+11:03:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:04:00 INFO  : Jtag cable 'RealDigital Boo 88742923028BA' is selected.
+11:04:00 INFO  : 'jtag frequency' command is executed.
+11:04:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:04:01 INFO  : Device configured successfully with "C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/_ide/bitstream/hopefullyworkingbitstream.bit"
+11:04:01 INFO  : Context for processor 'microblaze_0' is selected.
+11:04:01 INFO  : Hardware design and registers information is loaded from 'C:/385/project_6final/hopefulbitstream/hopefullyworkingbitstream/export/hopefullyworkingbitstream/hw/hopefullyworkingbitstream.xsa'.
+11:04:01 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:04:02 INFO  : Context for processor 'microblaze_0' is selected.
+11:04:02 INFO  : System reset is completed.
+11:04:05 INFO  : 'after 3000' command is executed.
+11:04:05 INFO  : Context for processor 'microblaze_0' is selected.
+11:04:05 INFO  : The application 'C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/Debug/hopefulbitstreamworking.elf' is downloaded to processor 'microblaze_0'.
+11:04:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/_ide/bitstream/hopefullyworkingbitstream.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/project_6final/hopefulbitstream/hopefullyworkingbitstream/export/hopefullyworkingbitstream/hw/hopefullyworkingbitstream.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/Debug/hopefulbitstreamworking.elf
+----------------End of Script----------------
+
+11:04:05 INFO  : Context for processor 'microblaze_0' is selected.
+11:04:05 INFO  : 'con' command is executed.
+11:04:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:04:05 INFO  : Disconnected from the channel tcfchan#5.
+11:04:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:04:50 INFO  : Jtag cable 'RealDigital Boo 88742923028BA' is selected.
+11:04:50 INFO  : 'jtag frequency' command is executed.
+11:04:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:04:51 INFO  : Device configured successfully with "C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/_ide/bitstream/hopefullyworkingbitstream.bit"
+11:04:51 INFO  : Context for processor 'microblaze_0' is selected.
+11:04:51 INFO  : Hardware design and registers information is loaded from 'C:/385/project_6final/hopefulbitstream/hopefullyworkingbitstream/export/hopefullyworkingbitstream/hw/hopefullyworkingbitstream.xsa'.
+11:04:51 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:04:51 INFO  : Context for processor 'microblaze_0' is selected.
+11:04:51 INFO  : System reset is completed.
+11:04:54 INFO  : 'after 3000' command is executed.
+11:04:54 INFO  : Context for processor 'microblaze_0' is selected.
+11:04:55 INFO  : The application 'C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/Debug/hopefulbitstreamworking.elf' is downloaded to processor 'microblaze_0'.
+11:04:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/_ide/bitstream/hopefullyworkingbitstream.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/project_6final/hopefulbitstream/hopefullyworkingbitstream/export/hopefullyworkingbitstream/hw/hopefullyworkingbitstream.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/Debug/hopefulbitstreamworking.elf
+----------------End of Script----------------
+
+11:04:55 INFO  : Context for processor 'microblaze_0' is selected.
+11:04:55 INFO  : 'con' command is executed.
+11:04:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:04:55 INFO  : Disconnected from the channel tcfchan#6.
+11:42:15 DEBUG : Logs will be stored at 'C:/385/project_6final/hopefulbitstream/IDE.log'.
+11:42:16 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\385\project_6final\hopefulbitstream\temp_xsdb_launch_script.tcl
+11:42:22 INFO  : XSCT server has started successfully.
+11:42:22 INFO  : plnx-install-location is set to ''
+11:42:22 INFO  : Successfully done setting XSCT server connection channel  
+11:42:22 INFO  : Successfully done setting workspace for the tool. 
+11:42:23 INFO  : Platform repository initialization has completed.
+11:42:23 INFO  : Successfully done query RDI_DATADIR 
+11:42:23 INFO  : Registering command handlers for Vitis TCF services
+11:42:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:42:44 INFO  : Jtag cable 'RealDigital Boo 88742923028BA' is selected.
+11:42:44 INFO  : 'jtag frequency' command is executed.
+11:42:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:42:45 INFO  : Device configured successfully with "C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/_ide/bitstream/hopefullyworkingbitstream.bit"
+11:42:45 INFO  : Context for processor 'microblaze_0' is selected.
+11:42:45 INFO  : Hardware design and registers information is loaded from 'C:/385/project_6final/hopefulbitstream/hopefullyworkingbitstream/export/hopefullyworkingbitstream/hw/hopefullyworkingbitstream.xsa'.
+11:42:45 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:42:45 INFO  : Context for processor 'microblaze_0' is selected.
+11:42:45 INFO  : System reset is completed.
+11:42:48 INFO  : 'after 3000' command is executed.
+11:42:48 INFO  : Context for processor 'microblaze_0' is selected.
+11:42:49 INFO  : The application 'C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/Debug/hopefulbitstreamworking.elf' is downloaded to processor 'microblaze_0'.
+11:42:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/_ide/bitstream/hopefullyworkingbitstream.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/project_6final/hopefulbitstream/hopefullyworkingbitstream/export/hopefullyworkingbitstream/hw/hopefullyworkingbitstream.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/Debug/hopefulbitstreamworking.elf
+----------------End of Script----------------
+
+11:42:49 INFO  : Context for processor 'microblaze_0' is selected.
+11:42:49 INFO  : 'con' command is executed.
+11:42:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:42:49 INFO  : Disconnected from the channel tcfchan#1.
+11:44:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:44:32 INFO  : Jtag cable 'RealDigital Boo 88742923028BA' is selected.
+11:44:32 INFO  : 'jtag frequency' command is executed.
+11:44:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:44:34 INFO  : Device configured successfully with "C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/_ide/bitstream/hopefullyworkingbitstream.bit"
+11:44:34 INFO  : Context for processor 'microblaze_0' is selected.
+11:44:34 INFO  : Hardware design and registers information is loaded from 'C:/385/project_6final/hopefulbitstream/hopefullyworkingbitstream/export/hopefullyworkingbitstream/hw/hopefullyworkingbitstream.xsa'.
+11:44:34 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:44:34 INFO  : Context for processor 'microblaze_0' is selected.
+11:44:34 INFO  : System reset is completed.
+11:44:37 INFO  : 'after 3000' command is executed.
+11:44:37 INFO  : Context for processor 'microblaze_0' is selected.
+11:44:37 INFO  : The application 'C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/Debug/hopefulbitstreamworking.elf' is downloaded to processor 'microblaze_0'.
+11:44:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/_ide/bitstream/hopefullyworkingbitstream.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/project_6final/hopefulbitstream/hopefullyworkingbitstream/export/hopefullyworkingbitstream/hw/hopefullyworkingbitstream.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/Debug/hopefulbitstreamworking.elf
+----------------End of Script----------------
+
+11:44:37 INFO  : Context for processor 'microblaze_0' is selected.
+11:44:37 INFO  : 'con' command is executed.
+11:44:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:44:37 INFO  : Disconnected from the channel tcfchan#2.
+11:58:20 DEBUG : Logs will be stored at 'C:/385/project_6final/hopefulbitstream/IDE.log'.
+11:58:20 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\385\project_6final\hopefulbitstream\temp_xsdb_launch_script.tcl
+11:58:23 INFO  : XSCT server has started successfully.
+11:58:23 INFO  : plnx-install-location is set to ''
+11:58:23 INFO  : Successfully done setting XSCT server connection channel  
+11:58:23 INFO  : Successfully done setting workspace for the tool. 
+11:58:24 INFO  : Platform repository initialization has completed.
+11:58:24 INFO  : Successfully done query RDI_DATADIR 
+11:58:24 INFO  : Registering command handlers for Vitis TCF services
+11:58:35 INFO  : Result from executing command 'removePlatformRepo': 
+11:58:43 INFO  : Result from executing command 'getProjects': hopefullyworkingbitstream
+11:58:43 INFO  : Result from executing command 'getPlatforms': 
+11:58:43 INFO  : Checking for BSP changes to sync application flags for project 'hopefulbitstreamworking'...
+11:59:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:59:39 INFO  : Jtag cable 'RealDigital Boo 88742923028BA' is selected.
+11:59:39 INFO  : 'jtag frequency' command is executed.
+11:59:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:59:40 INFO  : Device configured successfully with "C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/_ide/bitstream/hopefullyworkingbitstream.bit"
+11:59:40 INFO  : Context for processor 'microblaze_0' is selected.
+11:59:40 INFO  : Hardware design and registers information is loaded from 'C:/385/project_6final/hopefulbitstream/hopefullyworkingbitstream/export/hopefullyworkingbitstream/hw/hopefullyworkingbitstream.xsa'.
+11:59:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:59:40 INFO  : Context for processor 'microblaze_0' is selected.
+11:59:40 INFO  : System reset is completed.
+11:59:43 INFO  : 'after 3000' command is executed.
+11:59:43 INFO  : Context for processor 'microblaze_0' is selected.
+11:59:44 INFO  : The application 'C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/Debug/hopefulbitstreamworking.elf' is downloaded to processor 'microblaze_0'.
+11:59:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/_ide/bitstream/hopefullyworkingbitstream.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/project_6final/hopefulbitstream/hopefullyworkingbitstream/export/hopefullyworkingbitstream/hw/hopefullyworkingbitstream.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/Debug/hopefulbitstreamworking.elf
+----------------End of Script----------------
+
+11:59:44 INFO  : Context for processor 'microblaze_0' is selected.
+11:59:44 INFO  : 'con' command is executed.
+11:59:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:59:44 INFO  : Disconnected from the channel tcfchan#3.
+12:02:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:02:02 INFO  : Jtag cable 'RealDigital Boo 88742923028BA' is selected.
+12:02:02 INFO  : 'jtag frequency' command is executed.
+12:02:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+12:02:03 INFO  : Device configured successfully with "C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/_ide/bitstream/hopefullyworkingbitstream.bit"
+12:02:03 INFO  : Context for processor 'microblaze_0' is selected.
+12:02:03 INFO  : Hardware design and registers information is loaded from 'C:/385/project_6final/hopefulbitstream/hopefullyworkingbitstream/export/hopefullyworkingbitstream/hw/hopefullyworkingbitstream.xsa'.
+12:02:03 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:02:03 INFO  : Context for processor 'microblaze_0' is selected.
+12:02:03 INFO  : System reset is completed.
+12:02:06 INFO  : 'after 3000' command is executed.
+12:02:06 INFO  : Context for processor 'microblaze_0' is selected.
+12:02:06 INFO  : The application 'C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/Debug/hopefulbitstreamworking.elf' is downloaded to processor 'microblaze_0'.
+12:02:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/_ide/bitstream/hopefullyworkingbitstream.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/project_6final/hopefulbitstream/hopefullyworkingbitstream/export/hopefullyworkingbitstream/hw/hopefullyworkingbitstream.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/Debug/hopefulbitstreamworking.elf
+----------------End of Script----------------
+
+12:02:07 INFO  : Context for processor 'microblaze_0' is selected.
+12:02:07 INFO  : 'con' command is executed.
+12:02:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:02:07 INFO  : Disconnected from the channel tcfchan#4.
+12:03:36 ERROR : Failed to connect to hardware server on host '127.0.0.1' and port '3121'.
+Reason: 'connect -url tcp:127.0.0.1:3121' is cancelled.
+12:03:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+12:04:38 DEBUG : Logs will be stored at 'C:/385/project_6final/hopefulbitstream/IDE.log'.
+12:04:39 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\385\project_6final\hopefulbitstream\temp_xsdb_launch_script.tcl
+12:04:41 INFO  : XSCT server has started successfully.
+12:04:41 INFO  : plnx-install-location is set to ''
+12:04:41 INFO  : Successfully done setting XSCT server connection channel  
+12:04:41 INFO  : Successfully done setting workspace for the tool. 
+12:04:42 INFO  : Platform repository initialization has completed.
+12:04:42 INFO  : Successfully done query RDI_DATADIR 
+12:04:42 INFO  : Registering command handlers for Vitis TCF services
+12:05:02 INFO  : Result from executing command 'removePlatformRepo': 
+12:05:08 INFO  : Result from executing command 'getProjects': hopefullyworkingbitstream
+12:05:08 INFO  : Result from executing command 'getPlatforms': 
+12:05:08 INFO  : Checking for BSP changes to sync application flags for project 'hopefulbitstreamworking'...
+12:05:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:05:29 INFO  : Jtag cable 'RealDigital Boo 88742923028BA' is selected.
+12:05:29 INFO  : 'jtag frequency' command is executed.
+12:05:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+12:05:30 INFO  : Device configured successfully with "C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/_ide/bitstream/hopefullyworkingbitstream.bit"
+12:05:30 INFO  : Context for processor 'microblaze_0' is selected.
+12:05:31 INFO  : Hardware design and registers information is loaded from 'C:/385/project_6final/hopefulbitstream/hopefullyworkingbitstream/export/hopefullyworkingbitstream/hw/hopefullyworkingbitstream.xsa'.
+12:05:31 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:05:31 INFO  : Context for processor 'microblaze_0' is selected.
+12:05:31 INFO  : System reset is completed.
+12:05:34 INFO  : 'after 3000' command is executed.
+12:05:34 INFO  : Context for processor 'microblaze_0' is selected.
+12:05:34 INFO  : The application 'C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/Debug/hopefulbitstreamworking.elf' is downloaded to processor 'microblaze_0'.
+12:05:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/_ide/bitstream/hopefullyworkingbitstream.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/project_6final/hopefulbitstream/hopefullyworkingbitstream/export/hopefullyworkingbitstream/hw/hopefullyworkingbitstream.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/Debug/hopefulbitstreamworking.elf
+----------------End of Script----------------
+
+12:05:34 INFO  : Context for processor 'microblaze_0' is selected.
+12:05:34 INFO  : 'con' command is executed.
+12:05:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:05:34 INFO  : Disconnected from the channel tcfchan#3.
+12:08:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:08:17 INFO  : Jtag cable 'RealDigital Boo 88742923028BA' is selected.
+12:08:17 INFO  : 'jtag frequency' command is executed.
+12:08:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+12:08:18 INFO  : Device configured successfully with "C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/_ide/bitstream/hopefullyworkingbitstream.bit"
+12:08:18 INFO  : Context for processor 'microblaze_0' is selected.
+12:08:18 INFO  : Hardware design and registers information is loaded from 'C:/385/project_6final/hopefulbitstream/hopefullyworkingbitstream/export/hopefullyworkingbitstream/hw/hopefullyworkingbitstream.xsa'.
+12:08:18 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:08:18 INFO  : Context for processor 'microblaze_0' is selected.
+12:08:18 INFO  : System reset is completed.
+12:08:21 INFO  : 'after 3000' command is executed.
+12:08:21 INFO  : Context for processor 'microblaze_0' is selected.
+12:08:21 INFO  : The application 'C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/Debug/hopefulbitstreamworking.elf' is downloaded to processor 'microblaze_0'.
+12:08:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 88742923028BA" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/_ide/bitstream/hopefullyworkingbitstream.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/385/project_6final/hopefulbitstream/hopefullyworkingbitstream/export/hopefullyworkingbitstream/hw/hopefullyworkingbitstream.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/385/project_6final/hopefulbitstream/hopefulbitstreamworking/Debug/hopefulbitstreamworking.elf
+----------------End of Script----------------
+
+12:08:22 INFO  : Context for processor 'microblaze_0' is selected.
+12:08:22 INFO  : 'con' command is executed.
+12:08:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:08:22 INFO  : Disconnected from the channel tcfchan#4.

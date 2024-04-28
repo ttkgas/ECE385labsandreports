@@ -1,0 +1,22 @@
+timestamp=[2024-03-22 11:20:16], mode=WORKBENCH_START, duration=0:00:10.873, duration_ms=10873, data={}
+timestamp=[2024-03-22 11:20:16], mode=WORKBENCH_UI_INIT, duration=0:00:00.698, duration_ms=698, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-03-22 11:20:17], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.063, duration_ms=63, data={}
+timestamp=[2024-03-22 11:21:10], mode=APP_CREATION, duration=0:00:09.273, duration_ms=9273, data={name=62readysubmit, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=62bitstreamready, application_type=application}
+timestamp=[2024-03-22 11:22:34], mode=PLATFORM_GENERATION, duration=0:00:06.110, duration_ms=6110, data={name=62bitstreamready}
+timestamp=[2024-03-22 11:22:48], mode=PLATFORM_GENERATION, duration=0:00:13.187, duration_ms=13187, data={name=62bitstreamready}
+timestamp=[2024-03-22 11:22:52], mode=BUILD, duration=0:00:04.784, duration_ms=4784, data={name=62readysubmit, configuration=Debug, clean_build=false}
+timestamp=[2024-03-22 11:23:15], mode=PLATFORM_GENERATION, duration=0:00:05.431, duration_ms=5431, data={name=62bitstreamready}
+timestamp=[2024-03-22 11:23:15], mode=BUILD, duration=0:00:00.298, duration_ms=298, data={name=62readysubmit, configuration=Debug, clean_build=true}
+timestamp=[2024-03-22 11:23:15], mode=BUILD, duration=0:00:00.238, duration_ms=238, data={name=62readysubmit_system, configuration=Debug, clean_build=true}
+timestamp=[2024-03-22 11:23:27], mode=PLATFORM_GENERATION, duration=0:00:11.468, duration_ms=11468, data={name=62bitstreamready}
+timestamp=[2024-03-22 11:23:31], mode=BUILD, duration=0:00:03.818, duration_ms=3818, data={name=62readysubmit, configuration=Debug, clean_build=false}
+timestamp=[2024-03-22 11:23:31], mode=BUILD, duration=0:00:00.236, duration_ms=236, data={name=62readysubmit_system, configuration=Debug, clean_build=false}
+timestamp=[2024-03-22 11:34:31], mode=WORKBENCH_START, duration=0:00:11.660, duration_ms=11660, data={}
+timestamp=[2024-03-22 11:34:32], mode=WORKBENCH_UI_INIT, duration=0:00:01.586, duration_ms=1586, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=62bitstreamready,62readysubmit,62readysubmit_system,RemoteSystemsTempFiles}
+timestamp=[2024-03-22 11:34:33], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.061, duration_ms=61, data={}
+timestamp=[2024-03-22 11:34:50], mode=PLATFORM_GENERATION, duration=0:00:06.104, duration_ms=6104, data={name=62bitstreamready}
+timestamp=[2024-03-22 11:34:50], mode=BUILD, duration=0:00:00.300, duration_ms=300, data={name=62readysubmit, configuration=Debug, clean_build=true}
+timestamp=[2024-03-22 11:34:50], mode=BUILD, duration=0:00:00.262, duration_ms=262, data={name=62readysubmit_system, configuration=Debug, clean_build=true}
+timestamp=[2024-03-22 11:35:03], mode=PLATFORM_GENERATION, duration=0:00:11.694, duration_ms=11694, data={name=62bitstreamready}
+timestamp=[2024-03-22 11:35:07], mode=BUILD, duration=0:00:03.811, duration_ms=3811, data={name=62readysubmit, configuration=Debug, clean_build=false}
+timestamp=[2024-03-22 11:35:08], mode=BUILD, duration=0:00:00.174, duration_ms=174, data={name=62readysubmit_system, configuration=Debug, clean_build=false}

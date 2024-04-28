@@ -1,0 +1,7 @@
+12:39:33 **** Clean-only build of configuration Debug for project sixpttwovitis ****
+make clean 
+rm -rf  ./src/lw_usb/HID.o ./src/lw_usb/MAX3421E.o ./src/lw_usb/transfer.o  ./src/lw_usb_main.o ./src/platform.o  ./src/lw_usb/HID.d ./src/lw_usb/MAX3421E.d ./src/lw_usb/transfer.d  ./src/lw_usb_main.d ./src/platform.d  sixpttwovitis.elf.size  sixpttwovitis.elf
+' '
+
+12:39:33 Build Finished (took 261ms)
+

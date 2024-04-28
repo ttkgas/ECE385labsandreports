@@ -1,0 +1,6 @@
+18:12:19 **** Build of configuration Debug for project mb62attempt2_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+18:12:19 Build Finished (took 248ms)
+
